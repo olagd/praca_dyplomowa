@@ -1102,6 +1102,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 78.74) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2080347b-9a8c-43c6-a233-1b3a8a4c36e9")
+	)
+	(wire
+		(pts
 			(xy 116.84 119.38) (xy 119.38 119.38)
 		)
 		(stroke
@@ -1202,13 +1212,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 88.9 63.5)
+			(xy 90.17 71.12) (xy 90.17 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ee6aa01-2c53-449b-b52d-274b3b4db6d9")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74865c75-e8fe-4734-9421-aa48a71229df")
 	)
 	(wire
 		(pts
@@ -1232,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 63.5) (xy 119.38 63.5)
+			(xy 90.17 63.5) (xy 119.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1282,16 +1302,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 88.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea98eb7c-e2ef-400d-9126-2963cde9939a")
-	)
-	(wire
-		(pts
 			(xy 102.87 71.12) (xy 107.95 71.12)
 		)
 		(stroke
@@ -1302,7 +1312,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 82.55 0)
+		(at 90.17 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1311,7 +1321,7 @@
 		(fields_autoplaced yes)
 		(uuid "05ed8238-73cf-452c-a716-c16a737613c1")
 		(property "Reference" "R1"
-			(at 91.44 81.2799 0)
+			(at 92.71 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1330,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 91.44 83.8199 0)
+			(at 92.71 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.122 82.55 90)
+			(at 88.392 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 82.55 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1357,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 82.55 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
