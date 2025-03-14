@@ -1802,6 +1802,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "L128-GRN2003500000:L128-GRN2003500000"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "L128-GRN2003500000"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "L128GRN2003500000"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.75"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "997-L128GRN200350000"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lumileds"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "L128-GRN2003500000_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Raspberry Pi Pico:Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3150,7 +3390,7 @@
 	)
 	(text "LEDS"
 		(exclude_from_sim no)
-		(at 45.212 105.918 0)
+		(at 45.212 97.028 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3183,7 +3423,7 @@
 		(uuid "334cc968-23a5-45e0-84cd-498e4d312018")
 	)
 	(junction
-		(at 81.28 109.22)
+		(at 81.28 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d4e81bc-927b-47ec-9759-274d0287f890")
@@ -3213,7 +3453,7 @@
 		(uuid "7fbbfed6-d93f-4b78-9cd9-9eaa53012926")
 	)
 	(junction
-		(at 62.23 109.22)
+		(at 62.23 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83146eaf-89c9-4764-b519-f41e71780e7e")
@@ -3249,7 +3489,7 @@
 		(uuid "a9c72971-f778-49f9-adb6-c899295b0c7b")
 	)
 	(junction
-		(at 55.88 109.22)
+		(at 55.88 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aee35b51-06e4-43d5-8aac-6283d9014393")
@@ -3261,19 +3501,19 @@
 		(uuid "b1b3f79d-5fde-4a48-871a-35207f76ae04")
 	)
 	(junction
-		(at 49.53 109.22)
+		(at 49.53 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7d01bdd-577b-477b-898e-e5ed6e5a4f7e")
 	)
 	(junction
-		(at 68.58 109.22)
+		(at 68.58 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b90e8f43-c2c1-4085-8ef3-7ec6d38b2982")
 	)
 	(junction
-		(at 74.93 109.22)
+		(at 74.93 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ec8edf-555f-4af0-a2c6-4473d1fa5536")
@@ -3345,7 +3585,7 @@
 		(uuid "fd7b3924-361a-411e-b2ac-0d9097fd847d")
 	)
 	(junction
-		(at 66.04 109.22)
+		(at 66.04 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fde0fb4e-7289-41f6-9d8d-6c85b0d8ddd9")
@@ -3472,6 +3712,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 100.33) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a918a89-e0dd-4d3b-86e6-3930570a0d34")
+	)
+	(wire
+		(pts
 			(xy 231.14 19.05) (xy 231.14 21.59)
 		)
 		(stroke
@@ -3499,6 +3749,16 @@
 			(type default)
 		)
 		(uuid "0e66117c-a870-4208-b7ee-c2b8dad74eac")
+	)
+	(wire
+		(pts
+			(xy 49.53 110.49) (xy 49.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7fd4d3-a7d7-4db8-85fc-7c58c567087f")
 	)
 	(wire
 		(pts
@@ -3569,16 +3829,6 @@
 			(type default)
 		)
 		(uuid "10fcd55b-b207-4e58-9031-923eaa1aeaab")
-	)
-	(wire
-		(pts
-			(xy 81.28 120.65) (xy 81.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1249b932-78da-455a-85d0-8d591c9d9592")
 	)
 	(wire
 		(pts
@@ -3712,6 +3962,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 100.33) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8084e3-4ace-4867-a0e7-c72b2313a0cc")
+	)
+	(wire
+		(pts
 			(xy 173.99 36.83) (xy 175.26 36.83)
 		)
 		(stroke
@@ -3739,16 +3999,6 @@
 			(type default)
 		)
 		(uuid "211fa49a-7c0a-4fa8-af78-58402ffe1208")
-	)
-	(wire
-		(pts
-			(xy 49.53 120.65) (xy 49.53 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22c4f2cb-a218-4a49-8a96-09f168ba449f")
 	)
 	(wire
 		(pts
@@ -3992,16 +4242,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 138.43) (xy 207.01 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309d9211-1d41-43ca-b2cf-1fd2f65bad92")
-	)
-	(wire
-		(pts
 			(xy 46.99 167.64) (xy 55.88 167.64)
 		)
 		(stroke
@@ -4052,6 +4292,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 110.49) (xy 62.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ae08c5-fbd7-47ab-a912-481acca2032c")
+	)
+	(wire
+		(pts
 			(xy 259.08 34.29) (xy 261.62 34.29)
 		)
 		(stroke
@@ -4089,6 +4339,16 @@
 			(type default)
 		)
 		(uuid "35f1f3a6-7102-459e-88e8-157123cd8a0d")
+	)
+	(wire
+		(pts
+			(xy 62.23 100.33) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d3b412-ea33-4efd-883c-c4250a13dd85")
 	)
 	(wire
 		(pts
@@ -4342,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 109.22) (xy 87.63 113.03)
+			(xy 87.63 100.33) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4432,16 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 109.22) (xy 81.28 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f1a3e50-3bc6-45ba-ac9d-f80042dcb312")
-	)
-	(wire
-		(pts
 			(xy 115.57 59.69) (xy 118.11 59.69)
 		)
 		(stroke
@@ -4522,6 +4772,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 110.49) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b7dc00-27bf-49fc-a1d7-2bb317a1bc2c")
+	)
+	(wire
+		(pts
 			(xy 41.91 67.31) (xy 46.99 67.31)
 		)
 		(stroke
@@ -4562,16 +4822,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 129.54) (xy 81.28 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d47a5d-57d1-43b4-9804-92e6335af270")
-	)
-	(wire
-		(pts
 			(xy 115.57 41.91) (xy 118.11 41.91)
 		)
 		(stroke
@@ -4579,16 +4829,6 @@
 			(type default)
 		)
 		(uuid "5531ddd6-7360-4460-ac23-bb51d1f170cf")
-	)
-	(wire
-		(pts
-			(xy 43.18 120.65) (xy 43.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c36aed-8f95-4726-8eb2-ee522432b7de")
 	)
 	(wire
 		(pts
@@ -4619,16 +4859,6 @@
 			(type default)
 		)
 		(uuid "56700d7d-2d9e-40e8-b296-d7791bf9d675")
-	)
-	(wire
-		(pts
-			(xy 207.01 143.51) (xy 207.01 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d84a10-becd-4858-a3bf-52b341cb84bb")
 	)
 	(wire
 		(pts
@@ -4732,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 109.22) (xy 87.63 109.22)
+			(xy 81.28 100.33) (xy 87.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4769,16 +4999,6 @@
 			(type default)
 		)
 		(uuid "5d3db7a4-cd58-4895-be41-7fa2177d73c5")
-	)
-	(wire
-		(pts
-			(xy 87.63 120.65) (xy 87.63 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ec920b5-0301-441d-9d41-20b62ce44d57")
 	)
 	(wire
 		(pts
@@ -4852,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 109.22) (xy 66.04 109.22)
+			(xy 62.23 100.33) (xy 66.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4952,6 +5172,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 129.54) (xy 81.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1914a1-addf-4648-a8ea-f4987468aebe")
+	)
+	(wire
+		(pts
 			(xy 242.57 49.53) (xy 246.38 49.53)
 		)
 		(stroke
@@ -5032,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 81.28 109.22)
+			(xy 74.93 100.33) (xy 81.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5072,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 62.23 109.22)
+			(xy 55.88 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5182,16 +5412,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 120.65) (xy 68.58 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "800da1c7-f08f-439d-ab62-f6c77ff0af99")
-	)
-	(wire
-		(pts
 			(xy 207.01 86.36) (xy 232.41 86.36)
 		)
 		(stroke
@@ -5242,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 55.88 113.03)
+			(xy 55.88 100.33) (xy 55.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5262,6 +5482,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 100.33) (xy 68.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f0a3b3-94bc-465e-b726-53d07377a2e0")
+	)
+	(wire
+		(pts
 			(xy 115.57 67.31) (xy 118.11 67.31)
 		)
 		(stroke
@@ -5269,16 +5499,6 @@
 			(type default)
 		)
 		(uuid "89bf2ab9-deab-4e0b-9c8d-4669c314f008")
-	)
-	(wire
-		(pts
-			(xy 208.28 140.97) (xy 195.58 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1c1ba9-9503-40c2-b3c3-9aef63a48add")
 	)
 	(wire
 		(pts
@@ -5372,16 +5592,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 49.53 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e8b25e-21a9-4750-a162-2bb7b06ee57f")
-	)
-	(wire
-		(pts
 			(xy 99.06 34.29) (xy 102.87 34.29)
 		)
 		(stroke
@@ -5409,6 +5619,16 @@
 			(type default)
 		)
 		(uuid "95dcd922-6a6b-46b4-a334-1a15abf4fba1")
+	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c8c773-498a-45bb-9a30-235daeffeacd")
 	)
 	(wire
 		(pts
@@ -5442,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 49.53 109.22)
+			(xy 43.18 100.33) (xy 49.53 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5522,16 +5742,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 43.18 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed6952b-f197-4656-98f2-6d143e47c024")
-	)
-	(wire
-		(pts
 			(xy 242.57 69.85) (xy 246.38 69.85)
 		)
 		(stroke
@@ -5562,6 +5772,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 110.49) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d43397-5de9-4e12-a369-4231c297ccd3")
+	)
+	(wire
+		(pts
 			(xy 12.7 41.91) (xy 16.51 41.91)
 		)
 		(stroke
@@ -5572,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 55.88 109.22)
+			(xy 49.53 100.33) (xy 55.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5599,16 +5819,6 @@
 			(type default)
 		)
 		(uuid "a6aaa6ae-195a-415a-a374-b2619f889b02")
-	)
-	(wire
-		(pts
-			(xy 74.93 120.65) (xy 74.93 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa63357-0f84-487b-9f41-4864a80572ce")
 	)
 	(wire
 		(pts
@@ -5649,16 +5859,6 @@
 			(type default)
 		)
 		(uuid "ad680fe8-e2e2-4b46-9ec6-120ba9c40516")
-	)
-	(wire
-		(pts
-			(xy 102.87 86.36) (xy 107.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae224936-eac8-41fa-809c-31fe86a43e6a")
 	)
 	(wire
 		(pts
@@ -5712,16 +5912,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 138.43) (xy 207.01 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0edbce1-b00f-4590-aa4f-31e27cc386af")
-	)
-	(wire
-		(pts
 			(xy 224.79 41.91) (xy 229.87 41.91)
 		)
 		(stroke
@@ -5739,6 +5929,16 @@
 			(type default)
 		)
 		(uuid "b152e5f6-99ac-44f9-bc0b-445eaa1f62c2")
+	)
+	(wire
+		(pts
+			(xy 81.28 110.49) (xy 81.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1644a3d-37fd-4493-a04b-734482c15c3f")
 	)
 	(wire
 		(pts
@@ -5982,6 +6182,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 110.49) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dc3328-8c77-4645-bd2b-bd1e0e94f88d")
+	)
+	(wire
+		(pts
 			(xy 91.44 52.07) (xy 82.55 52.07)
 		)
 		(stroke
@@ -6062,13 +6272,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 120.65) (xy 55.88 121.92)
+			(xy 87.63 110.49) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cad5e54c-0bf7-491c-97e0-0b08aa0bfa17")
+		(uuid "cc16c465-aff3-4df3-9bbd-0d945570c561")
 	)
 	(wire
 		(pts
@@ -6109,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "ce0d07f2-7114-46db-b6ba-f5d934c0c5df")
+	)
+	(wire
+		(pts
+			(xy 74.93 110.49) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeba7ec-9815-4e16-ab61-76c231893682")
 	)
 	(wire
 		(pts
@@ -6172,6 +6392,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 107.95) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09482b6-4f95-403d-a8c8-c3f531979f02")
+	)
+	(wire
+		(pts
 			(xy 40.64 69.85) (xy 46.99 69.85)
 		)
 		(stroke
@@ -6179,26 +6409,6 @@
 			(type default)
 		)
 		(uuid "d10ba251-df4a-4611-b9b3-98e06f1720b9")
-	)
-	(wire
-		(pts
-			(xy 68.58 109.22) (xy 68.58 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d11b2d55-6c50-4c38-8911-ce340b3adbb4")
-	)
-	(wire
-		(pts
-			(xy 62.23 120.65) (xy 62.23 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d19daf2d-b75a-4854-acb7-c3e29cdbffa0")
 	)
 	(wire
 		(pts
@@ -6242,7 +6452,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 82.55)
+			(xy 102.87 86.36) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6302,6 +6512,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 100.33) (xy 81.28 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d53091-f81d-4ae2-8f55-21f2588033ea")
+	)
+	(wire
+		(pts
 			(xy 259.08 52.07) (xy 261.62 52.07)
 		)
 		(stroke
@@ -6329,16 +6549,6 @@
 			(type default)
 		)
 		(uuid "db9bfabe-1b42-4291-b6c1-45fae3e12efb")
-	)
-	(wire
-		(pts
-			(xy 208.28 143.51) (xy 207.01 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5e2363-a0ed-4b69-ac5f-d416d380b79b")
 	)
 	(wire
 		(pts
@@ -6382,7 +6592,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 109.22) (xy 68.58 109.22)
+			(xy 66.04 100.33) (xy 68.58 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6572,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 74.93 113.03)
+			(xy 74.93 100.33) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6802,23 +7012,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 74.93 109.22)
+			(xy 68.58 100.33) (xy 74.93 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8db895c-be09-4f73-8a4b-3fa99bff85c2")
-	)
-	(wire
-		(pts
-			(xy 62.23 109.22) (xy 62.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c73add-6277-4c2d-b65c-3c61ed8ccde0")
 	)
 	(wire
 		(pts
@@ -8850,9 +9050,53 @@
 		)
 		(uuid "fb0b9fa6-2b5b-4888-a589-d6df6f24f2b5")
 	)
+	(global_label "gnd"
+		(shape passive)
+		(at 175.26 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b1987b8-84d3-4a62-b5f1-3e06a19298b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.5809 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "33,V"
+		(shape passive)
+		(at 182.88 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbe2b04b-0c3c-4ffb-b93f-92143fd24e98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.8663 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 49.53 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 43.18 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8860,7 +9104,7 @@
 		(dnp no)
 		(uuid "0a674ace-bd67-490d-9f74-6e3c48070c5c")
 		(property "Reference" "D2"
-			(at 51.562 124.968 90)
+			(at 45.212 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +9113,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 51.054 127.254 90)
+			(at 44.704 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,8 +9121,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 49.53 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 136.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 236.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 43.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,21 +9150,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 49.53 125.73 0)
+		(property "Height" "0.75"
+			(at 436.83 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 49.53 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 536.83 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 636.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 736.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 836.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9298,8 +9594,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 62.23 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 55.88 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9307,7 +9603,7 @@
 		(dnp no)
 		(uuid "1860648b-5c04-47e9-b3bc-73d21f0e45ab")
 		(property "Reference" "D4"
-			(at 64.262 124.968 90)
+			(at 57.912 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +9612,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 63.754 127.254 90)
+			(at 57.404 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,8 +9620,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 62.23 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 149.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 249.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 55.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,21 +9649,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 125.73 0)
+		(property "Height" "0.75"
+			(at 449.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 62.23 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 549.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 649.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 749.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 849.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9437,7 +9785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 82.55 0)
+		(at 102.87 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9445,7 +9793,7 @@
 		(dnp no)
 		(uuid "1c963a08-a0a6-41b2-a1bc-f0f3f21b7e6f")
 		(property "Reference" "#PWR07"
-			(at 107.95 88.9 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 87.63 0)
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +9810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 82.55 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 82.55 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 82.55 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,8 +9849,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 81.28 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 74.93 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9510,7 +9858,7 @@
 		(dnp no)
 		(uuid "24d59d0a-2f26-4b31-a4af-cf6ab88dd35a")
 		(property "Reference" "D7"
-			(at 83.312 124.968 90)
+			(at 76.962 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9867,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 82.804 127.254 90)
+			(at 76.454 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,8 +9875,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 81.28 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 168.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 268.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,21 +9904,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 81.28 125.73 0)
+		(property "Height" "0.75"
+			(at 468.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 81.28 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 568.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 668.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 768.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 868.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9564,79 +9964,6 @@
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 213.36 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f4aa506-5b67-4bf2-8be1-378f8e12e30f")
-		(property "Reference" "J3"
-			(at 215.9 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 215.9 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "23560af6-a8f0-43cf-b17c-77c57f794848")
-		)
-		(pin "2"
-			(uuid "2db93980-b362-407e-b323-d73a719fa2be")
-		)
-		(pin "1"
-			(uuid "55d4f309-c9c3-41f9-95d4-035dce2d57ad")
-		)
-		(instances
-			(project "board"
-				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9903,8 +10230,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 43.18 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 87.63 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9912,7 +10239,7 @@
 		(dnp no)
 		(uuid "394f974c-96c5-4987-85cf-5eae80659a65")
 		(property "Reference" "D1"
-			(at 45.212 124.968 90)
+			(at 89.662 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +10248,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 44.704 127.254 90)
+			(at 89.154 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,8 +10256,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 43.18 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 181.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 281.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 87.63 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,21 +10285,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 43.18 125.73 0)
+		(property "Height" "0.75"
+			(at 481.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 43.18 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 581.28 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 681.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 781.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 881.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -9972,8 +10351,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 87.63 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 81.28 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9981,7 +10360,7 @@
 		(dnp no)
 		(uuid "3b54b83e-9f7c-4a4f-a04c-8f47ecf14da4")
 		(property "Reference" "D8"
-			(at 89.662 124.968 90)
+			(at 83.312 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +10369,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 89.154 127.254 90)
+			(at 82.804 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,8 +10377,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 87.63 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 174.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 274.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,21 +10406,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 87.63 125.73 0)
+		(property "Height" "0.75"
+			(at 474.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 87.63 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 574.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 674.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 774.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 874.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -10378,8 +10809,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 74.93 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 68.58 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10387,7 +10818,7 @@
 		(dnp no)
 		(uuid "4d47e630-384f-4c18-9c36-3956fdf45010")
 		(property "Reference" "D6"
-			(at 76.962 124.968 90)
+			(at 70.612 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10827,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 76.454 127.254 90)
+			(at 70.104 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,8 +10835,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 74.93 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 162.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 262.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 68.58 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,21 +10864,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.93 125.73 0)
+		(property "Height" "0.75"
+			(at 462.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 74.93 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 562.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 662.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 762.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 862.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -10515,8 +10998,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 68.58 125.73 90)
+		(lib_id "power:+3.3V")
+		(at 182.88 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e0524a3-eefb-446a-b488-f55530e5264b")
+		(property "Reference" "#PWR031"
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c19b4ca-881b-4c5b-9ef1-103905b1b774")
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 62.23 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10524,7 +11073,7 @@
 		(dnp no)
 		(uuid "7017c906-7919-4061-819c-10822cceb05b")
 		(property "Reference" "D5"
-			(at 70.612 124.968 90)
+			(at 64.262 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +11082,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 70.104 127.254 90)
+			(at 63.754 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,8 +11090,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 68.58 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 155.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 255.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 62.23 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,21 +11119,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 68.58 125.73 0)
+		(property "Height" "0.75"
+			(at 455.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 68.58 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 555.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 655.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 755.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 855.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -10849,72 +11450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e24649a-348f-4e0b-9adc-668e60983f2f")
-		(property "Reference" "#PWR019"
-			(at 207.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ea7dcca-9083-4712-afb0-6eb358630431")
-		)
-		(instances
-			(project "board"
-				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 19.05 115.57 90)
 		(unit 1)
@@ -10985,7 +11520,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 109.22 0)
+		(at 66.04 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10994,7 +11529,7 @@
 		(fields_autoplaced yes)
 		(uuid "8406cbb9-d264-466f-9141-30431a9733ca")
 		(property "Reference" "#PWR014"
-			(at 66.04 113.03 0)
+			(at 66.04 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11538,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 104.14 0)
+			(at 66.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 109.22 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +11555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 109.22 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 109.22 0)
+			(at 66.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11744,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 116.84 0)
+		(at 87.63 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11217,7 +11752,7 @@
 		(dnp no)
 		(uuid "8cc79459-ca04-445c-a19f-f8a7a8011de5")
 		(property "Reference" "R10"
-			(at 89.154 115.57 0)
+			(at 89.154 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11761,7 @@
 			)
 		)
 		(property "Value" "122"
-			(at 89.154 117.348 0)
+			(at 89.154 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +11770,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 85.852 116.84 90)
+			(at 85.852 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +11779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 116.84 0)
+			(at 87.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +11788,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 116.84 0)
+			(at 87.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +11879,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 116.84 0)
+		(at 62.23 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11352,7 +11887,7 @@
 		(dnp no)
 		(uuid "955a0f7d-dde1-40ee-9f75-c9d363457baa")
 		(property "Reference" "R6"
-			(at 63.754 115.57 0)
+			(at 63.754 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11361,7 +11896,7 @@
 			)
 		)
 		(property "Value" "122"
-			(at 63.5 117.348 0)
+			(at 63.5 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11370,7 +11905,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 60.452 116.84 90)
+			(at 60.452 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 116.84 0)
+			(at 62.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,7 +11923,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 116.84 0)
+			(at 62.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11948,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 116.84 0)
+		(at 55.88 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11421,7 +11956,7 @@
 		(dnp no)
 		(uuid "97b2af7d-20c3-4bee-af6d-a02778277ea1")
 		(property "Reference" "R5"
-			(at 57.404 115.57 0)
+			(at 57.404 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11965,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 57.404 117.602 0)
+			(at 57.404 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11439,7 +11974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 54.102 116.84 90)
+			(at 54.102 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,7 +11983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 116.84 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,7 +11992,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 116.84 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,7 +12399,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 116.84 0)
+		(at 68.58 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11872,7 +12407,7 @@
 		(dnp no)
 		(uuid "a03d8836-e511-4a38-9963-4075a835699e")
 		(property "Reference" "R7"
-			(at 70.104 115.57 0)
+			(at 70.104 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11881,7 +12416,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 69.596 117.348 0)
+			(at 69.596 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11890,7 +12425,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 66.802 116.84 90)
+			(at 66.802 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11899,7 +12434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 116.84 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +12443,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 116.84 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +12960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 116.84 0)
+		(at 43.18 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12433,7 +12968,7 @@
 		(dnp no)
 		(uuid "c81c7c88-c81c-4ee4-ba7e-d2a96f73af69")
 		(property "Reference" "R3"
-			(at 44.704 115.57 0)
+			(at 44.704 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12977,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 44.704 117.348 0)
+			(at 44.704 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12986,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 41.402 116.84 90)
+			(at 41.402 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 116.84 0)
+			(at 43.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,7 +13004,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 116.84 0)
+			(at 43.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,8 +13093,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d60feea0-0494-4c2e-8ebd-244ed6dea9ff")
+		(property "Reference" "#PWR09"
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ab72d28-4a7a-4ba7-8c62-a7a8335d5ed9")
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 74.93 116.84 0)
+		(at 74.93 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12567,7 +13167,7 @@
 		(dnp no)
 		(uuid "deae80bc-d606-4ce3-9725-b3f5a318c07e")
 		(property "Reference" "R8"
-			(at 76.454 115.57 0)
+			(at 76.454 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12576,7 +13176,7 @@
 			)
 		)
 		(property "Value" "122"
-			(at 75.946 117.602 0)
+			(at 75.946 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12585,7 +13185,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 73.152 116.84 90)
+			(at 73.152 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12594,7 +13194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 116.84 0)
+			(at 74.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +13203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 116.84 0)
+			(at 74.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +13228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 116.84 0)
+		(at 49.53 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12636,7 +13236,7 @@
 		(dnp no)
 		(uuid "e8b0a4ef-c52c-4f0f-85ac-bd242972027b")
 		(property "Reference" "R4"
-			(at 51.054 115.57 0)
+			(at 51.054 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,7 +13245,7 @@
 			)
 		)
 		(property "Value" "122"
-			(at 50.8 117.348 0)
+			(at 50.8 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +13254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 47.752 116.84 90)
+			(at 47.752 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12663,7 +13263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 116.84 0)
+			(at 49.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +13272,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 116.84 0)
+			(at 49.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13229,72 +13829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 207.01 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb9c57cd-0bdd-4aae-80b4-fe8f194ef692")
-		(property "Reference" "#PWR018"
-			(at 207.01 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 207.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42b7b50a-0fc4-4738-a3f3-0fd84de5dde7")
-		)
-		(instances
-			(project "board"
-				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 73.66 161.29 90)
 		(unit 1)
@@ -13365,7 +13899,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 116.84 0)
+		(at 81.28 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13373,7 +13907,7 @@
 		(dnp no)
 		(uuid "fc3142f8-ab50-4169-b87a-a7ebbb8befc1")
 		(property "Reference" "R9"
-			(at 82.804 115.57 0)
+			(at 82.804 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13916,7 @@
 			)
 		)
 		(property "Value" "221"
-			(at 82.55 117.602 0)
+			(at 82.55 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 79.502 116.84 90)
+			(at 79.502 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,7 +13934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 116.84 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13943,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 116.84 0)
+			(at 81.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,8 +13967,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 55.88 125.73 90)
+		(lib_id "L128-GRN2003500000:L128-GRN2003500000")
+		(at 49.53 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13442,7 +13976,7 @@
 		(dnp no)
 		(uuid "ffded37c-83fc-4328-a8d9-cd65ec460d5a")
 		(property "Reference" "D3"
-			(at 57.912 124.968 90)
+			(at 51.562 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +13985,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 57.404 127.254 90)
+			(at 51.054 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,8 +13993,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
-			(at 55.88 125.73 0)
+		(property "Footprint" "L128GRN2003500000"
+			(at 143.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/c560e5393f0929fc57d232b2b8612e4b238c78da"
+			(at 243.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mid-Power LEDs - Single Color 2835 GREEN 520-540nm"
+			(at 49.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,21 +14022,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 55.88 125.73 0)
+		(property "Height" "0.75"
+			(at 443.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 55.88 125.73 0)
+		(property "Mouser Part Number" "997-L128GRN200350000"
+			(at 543.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumileds/L128-GRN2003500000?qs=2wMNvWM5ZX55piWt4f5eGw%3D%3D"
+			(at 643.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lumileds"
+			(at 743.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L128-GRN2003500000"
+			(at 843.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -13502,7 +14088,49 @@
 		)
 	)
 	(sheet
-		(at 182.88 138.43)
+		(at 195.58 111.76)
+		(size 20.32 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13e729e2-af22-4566-902c-35554dc60200")
+		(property "Sheetname" "wyświetlacz"
+			(at 195.58 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wyświetlacz.kicad_sch"
+			(at 195.58 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 137.16)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13518,7 +14146,7 @@
 		)
 		(uuid "4ce4dd53-34e3-426c-821d-561d412e5bd5")
 		(property "Sheetname" "czujnik temperatury"
-			(at 182.88 137.7184 0)
+			(at 231.14 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13527,22 +14155,12 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 182.88 144.0946 0)
+			(at 231.14 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "czujnik temperatury" input
-			(at 195.58 140.97 0)
-			(uuid "25cebe1a-a78c-4942-9381-5dd465e1a1a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -13554,7 +14172,91 @@
 		)
 	)
 	(sheet
-		(at 115.57 120.65)
+		(at 195.58 143.51)
+		(size 15.24 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d56c433-3f02-4f8c-8dce-69e87751087b")
+		(property "Sheetname" "Potencjometry"
+			(at 195.58 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "potencjometry.kicad_sch"
+			(at 195.58 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 129.54)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bb65ccf-4598-4b69-a1c1-81fe3a474d8e")
+		(property "Sheetname" "Gniazdo kart micro SD"
+			(at 195.58 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microSD.kicad_sch"
+			(at 195.58 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 125.73)
 		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13570,7 +14272,7 @@
 		)
 		(uuid "8b8e205f-8cd6-4f90-881c-a100662c7649")
 		(property "Sheetname" "EEPROM"
-			(at 115.57 119.9384 0)
+			(at 231.14 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +14281,7 @@
 			)
 		)
 		(property "Sheetfile" "eeprom.kicad_sch"
-			(at 115.57 126.3146 0)
+			(at 231.14 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HC28010-D")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/HC28010-D.kicad_sym")(options "")(descr ""))
+)

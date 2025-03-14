@@ -679,16 +679,28 @@
       "Root"
     ],
     [
-      "4ce4dd53-34e3-426c-821d-561d412e5bd5",
-      "czujnik temperatury"
-    ],
-    [
       "8b8e205f-8cd6-4f90-881c-a100662c7649",
       "EEPROM"
     ],
     [
+      "4ce4dd53-34e3-426c-821d-561d412e5bd5",
+      "czujnik temperatury"
+    ],
+    [
+      "13e729e2-af22-4566-902c-35554dc60200",
+      "wyświetlacz"
+    ],
+    [
       "aeaae9df-f534-49c0-80c6-5a1da97c1479",
       "Zegar czasu rzeczywistego RTC"
+    ],
+    [
+      "7bb65ccf-4598-4b69-a1c1-81fe3a474d8e",
+      "Gniazdo kart micro SD"
+    ],
+    [
+      "6d56c433-3f02-4f8c-8dce-69e87751087b",
+      "Potencjometry"
     ]
   ],
   "text_variables": {}
