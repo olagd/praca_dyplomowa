@@ -879,7 +879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 199.39 95.25 0)
 			(effects
 				(font
@@ -1154,7 +1154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASMT-YTC7-0AA02"
+		(property "Footprint" "footprints:ASMT-YTC7-0AA02"
 			(at 185.42 187.63 0)
 			(effects
 				(font

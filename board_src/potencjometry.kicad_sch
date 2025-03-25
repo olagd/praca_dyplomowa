@@ -2343,7 +2343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -2607,7 +2607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 81.788 106.68 90)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 92.71 94.488 90)
 			(effects
 				(font
@@ -2745,7 +2745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BMT0905XH05"
+		(property "Footprint" "footprints:BMT0905XH05"
 			(at 124.46 218.11 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Transistor_Power:GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm"
 			(at 149.86 120.65 0)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 92.71 84.328 90)
 			(effects
 				(font

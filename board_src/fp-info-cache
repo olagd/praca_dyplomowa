@@ -1,4 +1,4 @@
-24756214582293043
+24759700397528081
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99547,6 +99547,13 @@ Integrated Circuit
 3
 3
 footprints
+EEPROM
+SO8N
+Integrated Circuit
+0
+8
+8
+footprints
 L128GRN2003500000
 3.5mm x 2.8mm
 LED
@@ -99568,13 +99575,6 @@ Through hole pin header THT 2x20 2.54mm double row
 86
 43
 footprints
-SOIC127P600X175-8N
-SO8N
-Integrated Circuit
-0
-8
-8
-footprints
 SOP65P490X110-8N
 24AA04-I/MS
 Integrated Circuit
@@ -99595,3 +99595,17 @@ hc28010-d
 0
 18
 18
+footprints
+podstawka_bateria
+502-3-2
+Battery
+0
+2
+2
+footprints
+wyswietlacz7x4
+12p-dip-37.6x19-
+Display
+0
+12
+12

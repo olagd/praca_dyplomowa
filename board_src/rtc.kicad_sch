@@ -1916,26 +1916,6 @@
 		)
 		(uuid "f4dc5e2e-2e35-4ab9-a37e-e58d60baadf8")
 	)
-	(label "SDA"
-		(at 220.98 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20714593-eaeb-4d7a-8060-d728a171b6e3")
-	)
-	(label "SCL"
-		(at 220.98 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8773b609-4eab-448b-9135-4c79ec92168d")
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 228.6 92.71 90)
@@ -2185,7 +2165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "footprints:SOP65P490X110-8N"
 			(at 213.36 169.85 0)
 			(effects
 				(font
@@ -2615,7 +2595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 204.47 53.34 0)
 			(effects
 				(font
@@ -2817,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5023"
+		(property "Footprint" "footprints:podstawka_bateria"
 			(at 88.9 -6.02 0)
 			(effects
 				(font
@@ -2939,7 +2919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC35-U"
 			(at 176.53 77.47 0)
 			(effects
 				(font

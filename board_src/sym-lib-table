@@ -10,4 +10,6 @@
   (lib (name "M93C46-WMN6TP")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/M93C46-WMN6TP.kicad_sym")(options "")(descr ""))
   (lib (name "MCP3202-CI_MS")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/MCP3202-CI_MS.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "CA56-21SURKWA")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/CA56-21SURKWA.kicad_sym")(options "")(descr ""))
+  (lib (name "podstawka_bateria")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/podstawka_bateria.kicad_sym")(options "")(descr ""))
 )

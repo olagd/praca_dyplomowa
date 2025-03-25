@@ -684,11 +684,11 @@
     ],
     [
       "4ce4dd53-34e3-426c-821d-561d412e5bd5",
-      "czujnik temperatury"
+      "Czujnik temperatury"
     ],
     [
       "13e729e2-af22-4566-902c-35554dc60200",
-      "wyświetlacz"
+      "Wyświetlacz"
     ],
     [
       "aeaae9df-f534-49c0-80c6-5a1da97c1479",
@@ -717,6 +717,14 @@
     [
       "72381f9f-0261-4c9d-a878-5b854177e01f",
       "Przetwornik"
+    ],
+    [
+      "55a14567-f1b3-493a-ad76-30ad6f394af6",
+      "Przyciski"
+    ],
+    [
+      "70d33178-1898-4f3f-a8ca-0a4670154c11",
+      "Wyświetlacz LED"
     ]
   ],
   "text_variables": {}

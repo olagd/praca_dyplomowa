@@ -1138,7 +1138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -1221,7 +1221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 173.228 111.76 90)
 			(effects
 				(font
@@ -1423,7 +1423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 145.7452 120.65 0)
 			(effects
 				(font
@@ -1491,7 +1491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 175.768 111.76 90)
 			(effects
 				(font
