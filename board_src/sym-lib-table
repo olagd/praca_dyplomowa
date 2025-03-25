@@ -1,4 +1,13 @@
 (sym_lib_table
   (version 7)
   (lib (name "HC28010-D")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/HC28010-D.kicad_sym")(options "")(descr ""))
+  (lib (name "112J-TDAR-R01")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/112J-TDAR-R01.kicad_sym")(options "")(descr ""))
+  (lib (name "ASMT-YTB2-0BB02")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/ASMT-YTB2-0BB02.kicad_sym")(options "")(descr ""))
+  (lib (name "BMT0905XH05")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/BMT0905XH05.kicad_sym")(options "")(descr ""))
+  (lib (name "DS18B20+")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/DS18B20+.kicad_sym")(options "")(descr ""))
+  (lib (name "L128-GRN2003500000")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/L128-GRN2003500000.kicad_sym")(options "")(descr ""))
+  (lib (name "LM317T")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/LM317T.kicad_sym")(options "")(descr ""))
+  (lib (name "M93C46-WMN6TP")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/M93C46-WMN6TP.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP3202-CI_MS")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/MCP3202-CI_MS.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
 )

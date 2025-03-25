@@ -707,12 +707,16 @@
       "Dioda RGB"
     ],
     [
-      "2338146a-582f-4480-bf1e-8dfdfb07f555",
-      "Port szeregowy"
+      "b28b7f90-4697-49e2-9c2e-20213e860225",
+      "LED"
     ],
     [
       "b05c8f1b-3a6f-4219-9b92-1975eaafd5f3",
       "Port USB"
+    ],
+    [
+      "72381f9f-0261-4c9d-a878-5b854177e01f",
+      "Przetwornik"
     ]
   ],
   "text_variables": {}
