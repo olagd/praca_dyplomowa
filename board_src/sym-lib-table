@@ -12,4 +12,6 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "CA56-21SURKWA")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/CA56-21SURKWA.kicad_sym")(options "")(descr ""))
   (lib (name "podstawka_bateria")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/podstawka_bateria.kicad_sym")(options "")(descr ""))
+  (lib (name "przycisk")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/przycisk.kicad_sym")(options "")(descr ""))
+  (lib (name "PT6KV-251A2020")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/PT6KV-251A2020.kicad_sym")(options "")(descr ""))
 )

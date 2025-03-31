@@ -321,156 +321,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -572,6 +422,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "przycisk:1301.9319"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S1"
+				(at 22.098 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1301.9319"
+				(at 22.098 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:przycisk"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+				(at 13.716 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "9"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SCHURTER"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1301.9319"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1301.9319_1_1"
+				(rectangle
+					(start 19.05 1.27)
+					(end 25.4 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 13.97 0 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -2.54 0)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "przyciski"
 		(exclude_from_sim no)
@@ -584,100 +620,194 @@
 		(uuid "75c2efb1-a81c-4408-a458-053b87efd6ce")
 	)
 	(junction
-		(at 100.33 99.06)
+		(at 93.98 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42af3d32-2f84-48d3-965c-02eac8aabb29")
+		(uuid "606e6c80-da8e-447f-b6e0-7925daf609f5")
 	)
 	(junction
-		(at 127 99.06)
+		(at 171.45 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45c71ce2-e1f5-4826-ae11-05a00a37ca8f")
+		(uuid "8338bc1b-e7c4-4afa-89e6-70e8a7a3bd9c")
+	)
+	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c50b79-0f14-4cf0-8145-67472e05d98b")
 	)
 	(junction
 		(at 113.03 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7efd177f-1ffc-47d1-b53d-ca03829cdd78")
+		(uuid "89d88c96-8d4c-4df5-851e-28bcf1e5a1e3")
 	)
 	(junction
-		(at 91.44 99.06)
+		(at 151.13 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c3a3a81-fd99-4db8-b018-b88e237557c9")
+		(uuid "8f3a9be4-0803-41a2-bba6-ca2cf8fc17ea")
 	)
 	(junction
-		(at 109.22 99.06)
+		(at 191.77 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d20b0994-20df-4931-b602-58dcf39b631f")
+		(uuid "95731808-4c45-4f52-a10c-34c88227ca39")
 	)
 	(junction
-		(at 82.55 99.06)
+		(at 212.09 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0e24bb5-cfcd-49e4-ad0a-975cdf2d6869")
+		(uuid "9d9f1736-352c-4bf5-9812-30bc4626fa30")
 	)
-	(junction
-		(at 118.11 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f31ee50d-4261-4e6c-92a0-6dafc270c211")
+	(no_connect
+		(at 167.64 92.71)
+		(uuid "0212f8c3-c4b4-4147-8895-63ac74d0f3bd")
+	)
+	(no_connect
+		(at 90.17 95.25)
+		(uuid "0a370eb0-d088-4a44-bddf-0d3c8e6aea0f")
+	)
+	(no_connect
+		(at 187.96 95.25)
+		(uuid "1453e219-e7fe-420f-8800-c0e0ad65a429")
+	)
+	(no_connect
+		(at 208.28 95.25)
+		(uuid "185f22bf-34bc-486e-9b4a-a353338604df")
+	)
+	(no_connect
+		(at 110.49 95.25)
+		(uuid "18c9b55f-07ba-48a0-a99c-fc6bf9329a59")
+	)
+	(no_connect
+		(at 167.64 95.25)
+		(uuid "2006258b-ba04-4fcf-947f-f1f6f8a9d55c")
+	)
+	(no_connect
+		(at 228.6 92.71)
+		(uuid "3bbe8be6-fe26-4bd5-869f-0db724462d86")
+	)
+	(no_connect
+		(at 90.17 92.71)
+		(uuid "6a0963d7-81a0-4d43-9035-d2d51392ac1f")
+	)
+	(no_connect
+		(at 110.49 92.71)
+		(uuid "7f54c722-e90d-4bed-8e5d-8a2ad841d551")
+	)
+	(no_connect
+		(at 187.96 92.71)
+		(uuid "822238c3-839d-4708-a4a1-61fbb3271429")
+	)
+	(no_connect
+		(at 129.54 92.71)
+		(uuid "87a8735d-2960-4dc9-bd8e-6375702cbb99")
+	)
+	(no_connect
+		(at 129.54 95.25)
+		(uuid "8ce84c6d-f67f-4da9-953f-973500c2bd90")
+	)
+	(no_connect
+		(at 148.59 95.25)
+		(uuid "c1ce8b22-ce3b-4fa8-9f5f-b0d0ef25f5a7")
+	)
+	(no_connect
+		(at 148.59 92.71)
+		(uuid "cedb0b32-f4ed-498d-b3b5-256fac4740c9")
+	)
+	(no_connect
+		(at 228.6 95.25)
+		(uuid "d735a1b4-ff4e-488c-b86f-93c3ba77424d")
+	)
+	(no_connect
+		(at 208.28 92.71)
+		(uuid "dd01ee44-b0b0-4783-bc7a-dff379a44470")
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 127 85.09)
+			(xy 113.03 99.06) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07cdbf12-bb08-4118-9ac7-17b5e4301354")
+		(uuid "134fdbb8-7dda-46c5-ae0b-ef20cbd4fff5")
 	)
 	(wire
 		(pts
-			(xy 82.55 85.09) (xy 97.79 85.09)
+			(xy 148.59 82.55) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13eee5bd-4a5d-4776-9e65-49a831b075b1")
+		(uuid "1a2d7b52-9704-4606-bee8-811ac86b004d")
 	)
 	(wire
 		(pts
-			(xy 118.11 97.79) (xy 118.11 99.06)
+			(xy 212.09 95.25) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "167df3ce-cdef-40a5-8747-9d219b99f01f")
+		(uuid "1dc794cb-0c0b-4fdd-bee3-24b84657083b")
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 118.11 86.36)
+			(xy 146.05 78.74) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28180fa2-2dbb-4083-bbaa-1379d5d02c6c")
+		(uuid "2658ad4b-7d4d-46a0-bd1f-8863c0670da1")
 	)
 	(wire
 		(pts
-			(xy 82.55 87.63) (xy 82.55 85.09)
+			(xy 132.08 99.06) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "294ae373-43fd-451c-b295-fce5f7f7fc77")
+		(uuid "28fda936-d8f7-4cae-bd75-aab467865d24")
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 82.55 99.06)
+			(xy 212.09 76.2) (xy 212.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab2122c-f86e-4970-8e7c-18f9a9f6ea3a")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4624fa-bf81-4745-ad6a-0cc700524b0e")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7b8282-40b2-427d-a891-0b822ee8e343")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
@@ -687,97 +817,47 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 99.06) (xy 127 99.06)
+			(xy 191.77 80.01) (xy 191.77 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e6b5835-4828-464f-965b-172258d1d0eb")
+		(uuid "36b57846-86de-4af5-adc1-365934b18e55")
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 102.87 83.82)
+			(xy 143.51 76.2) (xy 93.98 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ed4bf7f-0666-440b-bd64-24dd9ecb2e45")
+		(uuid "3d02b864-e9fc-4236-896b-4cbd221fc26a")
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 100.33 99.06)
+			(xy 191.77 95.25) (xy 191.77 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f5acc8b-d203-444b-82c3-fa72c4b0a7ee")
+		(uuid "4c54ca27-20f4-44a8-be13-763331b364be")
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 97.79 83.82)
+			(xy 156.21 80.01) (xy 191.77 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5554ed90-3953-430a-ba31-93de2dc3134e")
+		(uuid "560ba44d-309b-4938-9e07-42c4f93e9404")
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 107.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d9bf4c-5ac4-424d-946f-1683329d75a2")
-	)
-	(wire
-		(pts
-			(xy 127 99.06) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d0300cf-da17-4b6a-8b4c-c0b435c11979")
-	)
-	(wire
-		(pts
-			(xy 100.33 99.06) (xy 109.22 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6225e7ac-1f92-48ad-8478-df2276ab24d4")
-	)
-	(wire
-		(pts
-			(xy 91.44 97.79) (xy 91.44 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6600b253-f35c-4560-8444-12163419112c")
-	)
-	(wire
-		(pts
-			(xy 135.89 97.79) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c1cdc1-09dd-40de-9f87-1c39b65a772b")
-	)
-	(wire
-		(pts
-			(xy 95.25 83.82) (xy 73.66 83.82)
+			(xy 140.97 72.39) (xy 73.66 72.39)
 		)
 		(stroke
 			(width 0)
@@ -787,57 +867,87 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 105.41 87.63)
+			(xy 171.45 95.25) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74604dd2-a00c-4040-82a3-bca329ef2895")
+		(uuid "695b4f20-a191-4a36-875e-cdcedec7227e")
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 91.44 99.06)
+			(xy 132.08 95.25) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a691790-3520-4cbe-97fa-8b407dd5002e")
+		(uuid "70b03166-bf5b-4b92-ad26-86d603afc9c5")
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 118.11 99.06)
+			(xy 93.98 76.2) (xy 93.98 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8121995f-6cab-44de-ba26-b401ec6a1791")
+		(uuid "75f639f4-58a2-49b1-abf4-9b501e29d10e")
 	)
 	(wire
 		(pts
-			(xy 100.33 86.36) (xy 100.33 83.82)
+			(xy 191.77 99.06) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81512341-b0bd-42f3-b256-845f9b190da6")
+		(uuid "7b474655-9c71-420c-8a0f-9c0697a0de50")
 	)
 	(wire
 		(pts
-			(xy 110.49 85.09) (xy 110.49 83.82)
+			(xy 171.45 99.06) (xy 191.77 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "923b0478-8e21-486c-9b7e-e7423d994846")
+		(uuid "845ac731-e4f0-48ba-bece-a331d0219fe6")
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 113.03 99.06)
+			(xy 158.75 76.2) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89021849-3c3f-4ec5-bf9a-1da0af40c890")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90df30b6-0c8a-4033-ae83-f3041fc835f4")
+	)
+	(wire
+		(pts
+			(xy 73.66 72.39) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c00fab7-0d6d-441b-a319-ed38d528dcc5")
+	)
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 212.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -847,87 +957,77 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 97.79) (xy 82.55 99.06)
+			(xy 148.59 72.39) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9c340b5-c8ef-45eb-90db-1805f8dbc945")
+		(uuid "a801983d-e4f6-43b1-9395-d83b63a7982d")
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 100.33 86.36)
+			(xy 143.51 72.39) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a3a57f-9647-4a66-a80d-079b08d235bc")
+		(uuid "ac0e8985-0c74-431e-a79b-fcce6851acba")
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 110.49 85.09)
+			(xy 158.75 72.39) (xy 158.75 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b62a997c-d557-477b-8ca9-19351902aae0")
+		(uuid "b087db7b-81e2-48e4-b76b-b37b7166df28")
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 105.41 87.63)
+			(xy 132.08 82.55) (xy 132.08 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "baeed8f4-0eb7-4170-b7b6-673ee0a51c33")
+		(uuid "b8a44ba0-98d8-4919-bc7e-204364de5093")
 	)
 	(wire
 		(pts
-			(xy 109.22 97.79) (xy 109.22 99.06)
+			(xy 151.13 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "baf2f5c7-d90d-4cdc-ae49-599827634ad1")
+		(uuid "c15236a2-9198-4ae4-a27c-3a495a5b2a17")
 	)
 	(wire
 		(pts
-			(xy 73.66 83.82) (xy 73.66 87.63)
+			(xy 93.98 95.25) (xy 93.98 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc8c426b-cab3-464e-ac7d-839f5744dbac")
+		(uuid "c1eb8cf4-65ac-41a4-b0cd-4fd128c66840")
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 113.03 99.06)
+			(xy 113.03 78.74) (xy 113.03 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bca77c0d-d43a-497e-a82c-f90db12c3693")
+		(uuid "cc48e98d-a9ce-472b-968f-6d4407a81064")
 	)
 	(wire
 		(pts
-			(xy 91.44 87.63) (xy 91.44 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c74599bc-7c70-4689-ad34-c82890001a25")
-	)
-	(wire
-		(pts
-			(xy 73.66 97.79) (xy 73.66 99.06)
+			(xy 73.66 95.25) (xy 73.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -937,67 +1037,67 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 83.82) (xy 135.89 87.63)
+			(xy 151.13 95.25) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce106a2c-5e8c-4b32-a1e0-2cea35c20219")
+		(uuid "cd81ea3a-d404-459f-a20c-4d23abd8fcc7")
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 102.87 87.63)
+			(xy 171.45 83.82) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d72bcbb1-dfc6-4572-9615-42503a0c3491")
+		(uuid "d38e3b0d-acea-4e52-95c1-b6d9d4967e55")
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 135.89 83.82)
+			(xy 151.13 72.39) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbfa0409-7bb9-42b7-862f-aa9b130a2c7a")
+		(uuid "d6ef18c7-eff4-463b-9231-ce810ddd5add")
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 100.33 99.06)
+			(xy 113.03 95.25) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfb817bc-29cd-4091-a536-ab52abbb260b")
+		(uuid "dac09a5e-077c-4abf-817a-b12b18669005")
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 127 99.06)
+			(xy 153.67 72.39) (xy 153.67 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee80df0b-a397-4109-99f5-66417c2a7490")
+		(uuid "e0aea08e-2242-4d3f-8cfc-aac737a02d20")
 	)
 	(wire
 		(pts
-			(xy 118.11 86.36) (xy 107.95 86.36)
+			(xy 156.21 72.39) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fca5c99b-1768-403c-84ed-1d510a6f4626")
+		(uuid "e9f4cd52-2578-4ff2-b434-d235371a5f51")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 102.87 78.74 90)
+		(at 148.59 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1005,7 +1105,7 @@
 		(dnp no)
 		(uuid "164367a2-dbe4-433f-97e7-80e228cf18f5")
 		(property "Reference" "J5"
-			(at 92.456 78.74 90)
+			(at 138.176 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1113,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 104.14 74.93 90)
+			(at 149.86 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1122,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 102.87 78.74 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 78.74 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1140,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 78.74 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,34 +1182,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 118.11 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 157.48 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "19d1432d-6cea-4c86-868c-fab508e488fc")
-		(property "Reference" "SW8"
-			(at 118.872 92.71 90)
+		(uuid "336fe204-f7d5-4496-95e0-372e9c9b49f5")
+		(property "Reference" "S8"
+			(at 179.578 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 119.38 93.98 90)
+		(property "Value" "1301.9319"
+			(at 179.578 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 113.03 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 184.15 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 184.15 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 171.196 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,68 +1235,124 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 92.71 0)
+		(property "Height" "9"
+			(at 184.15 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 118.11 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 184.15 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 184.15 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 184.15 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 184.15 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "7c2b8be9-db90-412f-bbe4-cbdc3c085995")
+			(uuid "42adf501-7e58-4d94-be0c-61c3696405a1")
+		)
+		(pin "4"
+			(uuid "1e88b5a6-8ad3-4b77-9573-631d3e6c8459")
 		)
 		(pin "1"
-			(uuid "7f9ced38-b730-4aaa-b73f-b3a7e4cb8e7b")
+			(uuid "17939f95-1c86-47a3-992a-9fa5ee5ba73b")
+		)
+		(pin "3"
+			(uuid "fc99a044-77f8-4dfb-8c25-57d04e7d9ae1")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW8")
+					(reference "S8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 73.66 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 137.16 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "307bb542-49b8-4459-b4bc-6d932904ac25")
-		(property "Reference" "SW3"
-			(at 74.422 92.71 90)
+		(uuid "34809d33-7c86-4db1-a812-b7b52515434f")
+		(property "Reference" "S7"
+			(at 159.258 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 74.93 93.98 90)
+		(property "Value" "1301.9319"
+			(at 159.258 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 68.58 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 163.83 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 163.83 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 150.876 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,68 +1360,124 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 68.58 92.71 0)
+		(property "Height" "9"
+			(at 163.83 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 73.66 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 163.83 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 163.83 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 163.83 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 163.83 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "cb2e0ef6-e3a2-4b46-ba41-8622b9a22d87")
+			(uuid "f760886c-70b6-4f5b-b1d8-4ea0f529dac5")
+		)
+		(pin "4"
+			(uuid "a4146411-a723-44a1-b72c-0fd4bcdd0f87")
 		)
 		(pin "1"
-			(uuid "e2d172b6-966e-4b21-bb0d-4151dbf7d2d0")
+			(uuid "272d1c7b-a0af-4f85-af27-61d2d9e3499a")
+		)
+		(pin "3"
+			(uuid "78873218-c235-46c7-8bcf-97375808b3dd")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW3")
+					(reference "S7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 198.12 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b576f97-6a8d-45ae-a6a9-d7d4643a1286")
-		(property "Reference" "SW5"
-			(at 92.202 92.71 90)
+		(uuid "9cef8f40-69f8-461a-bcdf-0443aaa95214")
+		(property "Reference" "S10"
+			(at 220.218 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 92.71 93.98 90)
+		(property "Value" "1301.9319"
+			(at 220.218 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 86.36 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 224.79 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 224.79 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 211.836 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,68 +1485,124 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 92.71 0)
+		(property "Height" "9"
+			(at 224.79 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 224.79 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 224.79 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 224.79 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 224.79 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "67798af0-2ab2-4172-b1b2-59169a860047")
+			(uuid "ee461ef5-8299-43b8-b5b5-d7cf00f32d77")
+		)
+		(pin "4"
+			(uuid "b685d45f-e1b4-47c4-9a70-a0efae1e1c5c")
 		)
 		(pin "1"
-			(uuid "2815faf0-ad49-4864-8cca-55351f9c8939")
+			(uuid "500d9711-e437-4844-b73a-d1155c83b4df")
+		)
+		(pin "3"
+			(uuid "0ba353fa-17aa-4503-8c98-1499be2ab199")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW5")
+					(reference "S10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 82.55 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 99.06 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46c9bb72-1be2-4fea-85e0-f4680f21f65c")
-		(property "Reference" "SW4"
-			(at 83.312 92.71 90)
+		(uuid "ac018f9b-329f-42c0-be6e-e7f0da5f9fce")
+		(property "Reference" "S5"
+			(at 121.158 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 83.82 93.98 90)
+		(property "Value" "1301.9319"
+			(at 121.158 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 77.47 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 125.73 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 125.73 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 112.776 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,68 +1610,124 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 92.71 0)
+		(property "Height" "9"
+			(at 125.73 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 82.55 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 125.73 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 125.73 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 125.73 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 125.73 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "33233793-94fd-4fba-acaf-18a10474f5b4")
+			(uuid "ebc0a5d8-e6e9-4719-8154-9dfa2f037877")
+		)
+		(pin "4"
+			(uuid "fe3baf84-ffe3-4d76-af94-b783182a0538")
 		)
 		(pin "1"
-			(uuid "51f11943-5a46-4181-bcf6-1acf01de77f3")
+			(uuid "c9667c28-da2c-47b9-9691-9dada139daa4")
+		)
+		(pin "3"
+			(uuid "f1aa7bc2-527c-4ee6-af40-72b3b0ed83fb")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW4")
+					(reference "S5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 135.89 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 59.69 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "72eab155-1ec6-458d-960e-8b2040263d60")
-		(property "Reference" "SW10"
-			(at 136.652 92.71 90)
+		(uuid "b29715f4-a608-450f-90ac-c541ad70025a")
+		(property "Reference" "S3"
+			(at 81.788 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 137.16 93.98 90)
+		(property "Value" "1301.9319"
+			(at 81.788 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 130.81 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 86.36 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 86.36 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 73.406 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,68 +1735,124 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 130.81 92.71 0)
+		(property "Height" "9"
+			(at 86.36 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 135.89 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 86.36 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 86.36 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 86.36 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 86.36 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "f9bcebff-6123-4d64-99fe-cb639e11253b")
+			(uuid "fc3ff73c-955d-48dd-a3df-0246cdc735b9")
+		)
+		(pin "4"
+			(uuid "4ba7d856-0add-43bc-bd91-80ae329a4028")
 		)
 		(pin "1"
-			(uuid "f3e56140-7f68-4af6-a1d9-c5a472459d60")
+			(uuid "1e491d5a-f83b-4295-9691-fb23af9d6de1")
+		)
+		(pin "3"
+			(uuid "fdd68c72-0208-4ff5-ac54-59e9775e15eb")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW10")
+					(reference "S3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 100.33 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 177.8 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c4d4f81-739b-48ed-929c-33c4cf2ec554")
-		(property "Reference" "SW6"
-			(at 101.092 92.964 90)
+		(uuid "d2ec7308-0acf-47a1-83a4-6d8599d213a7")
+		(property "Reference" "S9"
+			(at 199.898 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 101.6 93.98 90)
+		(property "Value" "1301.9319"
+			(at 199.898 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 95.25 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 204.47 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 204.47 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 191.516 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,68 +1860,124 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 95.25 92.71 0)
+		(property "Height" "9"
+			(at 204.47 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 204.47 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 204.47 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 204.47 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 204.47 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "d19156b8-0393-439c-80f4-9ee3e61d5c41")
+			(uuid "9676b972-26c2-43fd-bc3e-7dfdbb12bd20")
+		)
+		(pin "4"
+			(uuid "d61841bc-5fa4-44f6-8410-773a671418e8")
 		)
 		(pin "1"
-			(uuid "fb172438-5d44-4b9e-8e79-f3ff39600174")
+			(uuid "fd5da97a-6721-4b41-ad32-f09009bc1eae")
+		)
+		(pin "3"
+			(uuid "89bc080e-d1e6-4ecf-9c2a-3499a0aae61b")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW6")
+					(reference "S9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 127 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 80.01 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9e686dac-6d5e-4221-bec2-f3059812e2ba")
-		(property "Reference" "SW9"
-			(at 127.762 92.71 90)
+		(uuid "d6e32a0e-ac80-433a-a9d9-73cf2f7d1b0a")
+		(property "Reference" "S4"
+			(at 102.108 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 128.27 93.98 90)
+		(property "Value" "1301.9319"
+			(at 102.108 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 121.92 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 106.68 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 106.68 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 93.726 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,34 +1985,72 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 121.92 92.71 0)
+		(property "Height" "9"
+			(at 106.68 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 127 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 106.68 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 106.68 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 106.68 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 106.68 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "8bee6d5e-764a-4a5f-b83f-e1cb48b55de5")
+			(uuid "a4b0bc8b-0c53-4f95-b76f-163d1a87db7a")
+		)
+		(pin "4"
+			(uuid "36cc4046-e469-4adc-a446-bc81ad11130e")
 		)
 		(pin "1"
-			(uuid "06317865-86ef-4129-ab3a-412eea5a98dd")
+			(uuid "a797b3af-4bcb-4d5e-9d2a-f3941cdb095c")
+		)
+		(pin "3"
+			(uuid "2695ec6e-b058-48b6-8521-38b06194a02e")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW9")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -1566,7 +2058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 100.33 0)
+		(at 212.09 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1575,7 +2067,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9a3a640-9bf4-4709-84b4-091d01185677")
 		(property "Reference" "#PWR020"
-			(at 113.03 106.68 0)
+			(at 212.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +2076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 105.41 0)
+			(at 212.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +2084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 100.33 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +2093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 100.33 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +2102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 100.33 0)
+			(at 212.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,34 +2123,52 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 109.22 92.71 90)
+		(lib_id "przycisk:1301.9319")
+		(at 118.11 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc04f326-ad25-41f1-aee4-9c50fa0fa698")
-		(property "Reference" "SW7"
-			(at 109.982 92.71 90)
+		(uuid "ee788da5-7bfd-4db2-b29d-bfbdbbd94da3")
+		(property "Reference" "S6"
+			(at 140.208 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 110.49 93.98 90)
+		(property "Value" "1301.9319"
+			(at 140.208 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 104.14 92.71 0)
+		(property "Footprint" "footprints:przycisk"
+			(at 144.78 187.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
+			(at 144.78 287.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
+			(at 131.826 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,34 +2176,72 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 92.71 0)
+		(property "Height" "9"
+			(at 144.78 487.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 109.22 92.71 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 144.78 587.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 144.78 687.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SCHURTER"
+			(at 144.78 787.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1301.9319"
+			(at 144.78 887.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "27b0a6b1-3966-468b-93ff-b8642287efcd")
+			(uuid "bdc859be-2dbc-4788-b40f-00480459007b")
+		)
+		(pin "4"
+			(uuid "add2d4b0-4f26-4c01-ab3a-ee4ffad08b66")
 		)
 		(pin "1"
-			(uuid "f2ab6b7d-c110-4d4c-949c-caddb556901a")
+			(uuid "d727f25a-e5f6-434f-b02e-0b1aa0f949d8")
+		)
+		(pin "3"
+			(uuid "92fd4310-ff2f-4f93-8b5d-4e58f700fca1")
 		)
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW7")
+					(reference "S6")
 					(unit 1)
 				)
 			)

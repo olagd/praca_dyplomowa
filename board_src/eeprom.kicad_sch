@@ -738,6 +738,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Jaka wartość oporników?\n"
+		(exclude_from_sim no)
+		(at 193.548 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1531f46e-3a8d-48a0-96ce-4ba70e6c4a3d")
+	)
 	(text "czy chcemy mieć możliwość zapisu do eeprom?"
 		(exclude_from_sim no)
 		(at 172.466 71.628 0)

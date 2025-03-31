@@ -1317,6 +1317,16 @@
 		)
 		(uuid "4cdc963d-2261-4985-9a23-165634f50f8e")
 	)
+	(text "zmienić na nieregulowany"
+		(exclude_from_sim no)
+		(at 224.536 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6424f5dc-b119-4356-9116-345ecef5ad7d")
+	)
 	(junction
 		(at 201.93 116.84)
 		(diameter 0)

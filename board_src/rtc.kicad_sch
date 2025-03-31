@@ -2919,7 +2919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC35-U"
+		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
 			(at 176.53 77.47 0)
 			(effects
 				(font

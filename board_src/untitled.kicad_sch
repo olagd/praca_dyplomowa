@@ -697,6 +697,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Jaka wartość opornika?\n"
+		(exclude_from_sim no)
+		(at 172.212 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b89d68b9-129f-466a-a1a3-014824fd8167")
+	)
 	(junction
 		(at 186.69 133.35)
 		(diameter 0)

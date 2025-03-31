@@ -944,6 +944,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "upewnić się jaki to port"
+		(exclude_from_sim no)
+		(at 127.508 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19d8420b-9d58-490f-86a7-80f0160f0717")
+	)
 	(junction
 		(at 162.56 118.11)
 		(diameter 0)

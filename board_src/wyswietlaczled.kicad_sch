@@ -1308,6 +1308,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Wartości rezystorów?"
+		(exclude_from_sim no)
+		(at 129.54 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0186feb8-1d51-46e5-8363-2a7d2381ed53")
+	)
+	(text "Wartości rezystorów?"
+		(exclude_from_sim no)
+		(at 142.748 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28ac3e4c-7646-4666-8f71-ae835e376b13")
+	)
 	(text "DIGIT"
 		(exclude_from_sim no)
 		(at 121.666 140.716 0)
@@ -1340,7 +1360,7 @@
 	)
 	(text "wspólna anoda\n"
 		(exclude_from_sim no)
-		(at 132.08 59.69 0)
+		(at 119.888 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)

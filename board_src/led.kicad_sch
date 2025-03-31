@@ -821,6 +821,16 @@
 		)
 		(uuid "00981d33-1170-4c48-bbd9-719a9408d08a")
 	)
+	(text "uaktualnić footprinty"
+		(exclude_from_sim no)
+		(at 140.462 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f902223b-69aa-4273-b80d-8088aff27cdd")
+	)
 	(junction
 		(at 88.9 86.36)
 		(diameter 0)
