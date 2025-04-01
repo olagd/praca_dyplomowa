@@ -14,4 +14,6 @@
   (lib (name "podstawka_bateria")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/podstawka_bateria.kicad_sym")(options "")(descr ""))
   (lib (name "przycisk")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/przycisk.kicad_sym")(options "")(descr ""))
   (lib (name "PT6KV-251A2020")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/PT6KV-251A2020.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4135-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/USB4135-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "AP2202K-3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/AP2202K-3_3TRG1.kicad_sym")(options "")(descr ""))
 )
