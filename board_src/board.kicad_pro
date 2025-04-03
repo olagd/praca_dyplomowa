@@ -724,7 +724,11 @@
     ],
     [
       "70d33178-1898-4f3f-a8ca-0a4670154c11",
-      "Wyświetlacz LED"
+      "Wyświetlacz segmentowy"
+    ],
+    [
+      "99f2b7c2-bf4b-48af-983c-5ee0acdebe2a",
+      "Wyświetlacz LCD"
     ]
   ],
   "text_variables": {}

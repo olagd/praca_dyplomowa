@@ -771,20 +771,22 @@
 		(uuid "744acc33-151b-467f-98d8-9418e9bfc335")
 	)
 	(junction
+		(at 205.74 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "904c4d03-2f39-4b9b-a8c2-d621cff153e4")
+	)
+	(junction
 		(at 149.86 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fdea46-d0ea-46c6-af92-fd3119839e24")
 	)
-	(wire
-		(pts
-			(xy 205.74 102.87) (xy 205.74 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e5a0988-70c3-49e7-9ac6-6914c30f2b17")
+	(junction
+		(at 210.82 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0a478a-691b-4e71-ba59-277edf235244")
 	)
 	(wire
 		(pts
@@ -798,6 +800,36 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 104.14) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2948de82-31aa-48f2-a438-8d8ce288e5f4")
+	)
+	(wire
+		(pts
+			(xy 210.82 104.14) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299da378-2f70-43bc-a6ae-fc672a439186")
+	)
+	(wire
+		(pts
+			(xy 205.74 102.87) (xy 205.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bcd7be7-3b19-4d1d-96ba-4b21b03716af")
+	)
+	(wire
+		(pts
 			(xy 149.86 92.71) (xy 149.86 95.25)
 		)
 		(stroke
@@ -808,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 85.09) (xy 214.63 85.09)
+			(xy 185.42 85.09) (xy 210.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 149.86 114.3)
+			(xy 149.86 97.79) (xy 149.86 127)
 		)
 		(stroke
 			(width 0)
@@ -865,6 +897,16 @@
 			(type default)
 		)
 		(uuid "7e8ab5e1-78b8-441f-be64-588bef830bb0")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807dfaf7-edb4-4a22-a7ea-33b1e469e44d")
 	)
 	(wire
 		(pts
@@ -938,6 +980,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89ff6c1-7614-44f0-ad32-3c26999d315f")
+	)
+	(wire
+		(pts
 			(xy 196.85 105.41) (xy 205.74 105.41)
 		)
 		(stroke
@@ -955,16 +1007,6 @@
 			(type default)
 		)
 		(uuid "f10fcb68-fe85-4bae-9135-286249e9521f")
-	)
-	(wire
-		(pts
-			(xy 205.74 105.41) (xy 205.74 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f624cdfd-2068-4512-ba72-e5c385e838bf")
 	)
 	(wire
 		(pts
@@ -988,7 +1030,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 114.3 0)
+		(at 149.86 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -997,7 +1039,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d067f49-9f0e-4796-b5b4-7b3773077f73")
 		(property "Reference" "#PWR017"
-			(at 149.86 120.65 0)
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 119.38 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 114.3 0)
+			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 114.3 0)
+			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 114.3 0)
+			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,70 +1089,6 @@
 			(project ""
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/8b8e205f-8cd6-4f90-881c-a100662c7649"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b36ee23-76c8-47c2-9356-9b1c0918735e")
-		(property "Reference" "J28"
-			(at 211.074 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 219.964 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1875883-25bf-424f-bde6-5b36cb82158a")
-		)
-		(instances
-			(project "board"
-				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/8b8e205f-8cd6-4f90-881c-a100662c7649"
-					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -1308,70 +1286,6 @@
 			(project ""
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/8b8e205f-8cd6-4f90-881c-a100662c7649"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de6158e0-a66e-4892-9193-3b42da673916")
-		(property "Reference" "J19"
-			(at 211.328 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 220.726 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 210.82 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 210.82 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccbeab74-2201-429b-86f3-11632173bbf1")
-		)
-		(instances
-			(project ""
-				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/8b8e205f-8cd6-4f90-881c-a100662c7649"
-					(reference "J19")
 					(unit 1)
 				)
 			)

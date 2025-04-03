@@ -237,23 +237,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J15"
+				(at -1.2701 5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+				(at 1.2699 5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -353,7 +355,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -389,7 +391,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,7 +794,7 @@
 		(dnp no)
 		(uuid "2f0f0c88-8106-40ca-bf86-bc1ee3ad06b3")
 		(property "Reference" "R22"
-			(at 130.302 97.282 0)
+			(at 134.112 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,8 +802,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
-			(at 132.334 97.282 0)
+		(property "Value" "68"
+			(at 136.144 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +936,7 @@
 		(dnp no)
 		(uuid "6696dec9-a288-42b1-8298-048ffaad899e")
 		(property "Reference" "R21"
-			(at 129.794 102.362 0)
+			(at 139.7 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,8 +944,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
-			(at 131.826 102.362 0)
+		(property "Value" "68"
+			(at 141.478 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1071,7 @@
 		(dnp no)
 		(uuid "c708c108-df53-4f36-91ef-b46b48d7f435")
 		(property "Reference" "R23"
-			(at 130.302 91.694 0)
+			(at 141.986 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,8 +1079,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
-			(at 132.334 91.694 0)
+		(property "Value" "68"
+			(at 144.018 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)

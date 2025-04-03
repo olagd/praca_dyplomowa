@@ -5,7 +5,7 @@
 	(uuid "2a1bd54b-1e08-4a04-850a-f5f96d0e9532")
 	(paper "A4")
 	(lib_symbols
-		(symbol "502-3:502-3"
+		(symbol "3012:3012"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "502-3"
+			(property "Value" "3012"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "5023"
+			(property "Footprint" "3012"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=4032"
+			(property "Datasheet" ""
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Coin Cell Battery Holders 16mm Coin cell hldr .635x.505x.060"
+			(property "Description" "BATTERY SOCKET Keystone PCB Mount Battery Contact for 1 (Coin Cell), Top Spring Arm Contact, 16mm Cell Diameter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "8.76"
+			(property "Height" ""
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "502-3"
+			(property "Manufacturer_Part_Number" "3012"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -106,10 +106,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "502-3_1_1"
+			(symbol "3012_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -5.08)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -121,7 +121,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "-"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,7 +139,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "+"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -147,6 +147,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1420,6 +1438,16 @@
 		)
 		(uuid "3a9fe4f1-f8af-47a9-ad10-9838dd272aee")
 	)
+	(text "Sprawdzić poprawność podłączenia"
+		(exclude_from_sim no)
+		(at 82.042 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "746343a0-f311-483e-b4f6-132defdd1422")
+	)
 	(text "RTC\n"
 		(exclude_from_sim no)
 		(at 100.076 71.628 0)
@@ -1465,6 +1493,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f506f72c-68cc-4cf0-9f9a-de4171852ee9")
+	)
+	(no_connect
+		(at 86.36 87.63)
+		(uuid "b13339c0-5872-4c30-a9b1-94de5fc44583")
 	)
 	(wire
 		(pts
@@ -1558,6 +1590,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 90.17) (xy 105.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ead4c8d-7fdd-4533-9aff-7abc47cfbb1a")
+	)
+	(wire
+		(pts
 			(xy 184.15 82.55) (xy 184.15 97.79)
 		)
 		(stroke
@@ -1565,6 +1607,16 @@
 			(type default)
 		)
 		(uuid "30ac9353-1ceb-4091-88af-365072274ded")
+	)
+	(wire
+		(pts
+			(xy 86.36 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33aea336-c917-48a7-89ff-8aa56d934a42")
 	)
 	(wire
 		(pts
@@ -1655,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "5dcd7cab-6e0b-4dca-baa6-a7ed1e7c6811")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660061be-fbec-4182-8b26-5707fb900025")
 	)
 	(wire
 		(pts
@@ -1838,6 +1900,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 85.09) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0c7664-aec2-43db-8737-f560cd0acadc")
+	)
+	(wire
+		(pts
 			(xy 217.17 80.01) (xy 224.79 80.01)
 		)
 		(stroke
@@ -1933,7 +2005,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 228.6 96.774 90)
 			(effects
 				(font
@@ -2294,7 +2366,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 228.6 86.36 90)
 			(effects
 				(font
@@ -2772,43 +2844,33 @@
 		)
 	)
 	(symbol
-		(lib_id "502-3:502-3")
-		(at 105.41 88.9 180)
+		(lib_id "3012:3012")
+		(at 86.36 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7713ad3-e49e-4d49-9011-5130530360c8")
-		(property "Reference" "BT2"
-			(at 95.25 78.74 0)
+		(uuid "eab756de-903d-4952-bd5b-8ec04f4119e5")
+		(property "Reference" "BT1"
+			(at 76.2 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "502-3"
-			(at 95.25 81.28 0)
+		(property "Value" "3012"
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:podstawka_bateria"
-			(at 88.9 -6.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=4032"
-			(at 88.9 -106.02 0)
+		(property "Footprint" "footprints:3012"
+			(at 69.85 -4.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,8 +2879,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Coin Cell Battery Holders 16mm Coin cell hldr .635x.505x.060"
-			(at 105.41 88.9 0)
+		(property "Datasheet" ""
+			(at 69.85 -104.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BATTERY SOCKET Keystone PCB Mount Battery Contact for 1 (Coin Cell), Top Spring Arm Contact, 16mm Cell Diameter"
+			(at 86.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,8 +2898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8.76"
-			(at 88.9 -306.02 0)
+		(property "Height" ""
+			(at 69.85 -304.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2909,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 88.9 -406.02 0)
+			(at 69.85 -404.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2919,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 88.9 -506.02 0)
+			(at 69.85 -504.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2929,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 88.9 -606.02 0)
+			(at 69.85 -604.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,8 +2938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "502-3"
-			(at 88.9 -706.02 0)
+		(property "Manufacturer_Part_Number" "3012"
+			(at 69.85 -704.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,15 +2949,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "8c3f3843-c03b-4064-b1af-d0d4f4f8d444")
+			(uuid "0ce86408-2dcc-45c0-a7ac-4c43b487cd5e")
+		)
+		(pin "3"
+			(uuid "40ec6107-b9c2-4568-911d-cba7e55331fd")
 		)
 		(pin "1"
-			(uuid "419d623f-cc58-4185-b58d-47d7059fdafd")
+			(uuid "002c8f11-e4ea-4580-b03b-0c7036ca9485")
 		)
 		(instances
 			(project ""
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/aeaae9df-f534-49c0-80c6-5a1da97c1479"
-					(reference "BT2")
+					(reference "BT1")
 					(unit 1)
 				)
 			)

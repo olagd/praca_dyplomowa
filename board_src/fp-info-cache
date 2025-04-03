@@ -1,4 +1,4 @@
-24766674124211220
+24773648717679776
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99519,6 +99519,13 @@ Connector
 13
 13
 footprints
+3012
+3012
+Battery
+0
+3
+3
+footprints
 ASMT-YTC7-0AA02
 ASMT-YTC7-0AA02
 LED
@@ -99561,12 +99568,33 @@ LED
 2
 2
 footprints
+LEDC1608X80N
+LS Q976-NR-1_2023
+LED
+0
+2
+2
+footprints
+LEDC1608X100N
+1608 (0603)
+LED
+0
+2
+2
+footprints
 PT6KV251A2020
 PT6KV-251A2020-1
 Variable Resistor
 0
 3
 3
+footprints
+RC1602BBIWESX
+RC1602B-BIW-ESX-5
+Display
+0
+24
+24
 footprints
 RP2040-QFN-56
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
