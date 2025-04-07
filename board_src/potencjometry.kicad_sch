@@ -1154,6 +1154,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "zmienić symbol na zwykły\n"
+		(exclude_from_sim no)
+		(at 121.666 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac59df17-b8d7-47a5-a304-4397b7a41562")
+	)
 	(junction
 		(at 63.5 97.79)
 		(diameter 0)
@@ -1897,7 +1907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 81.788 106.68 90)
 			(effects
 				(font
@@ -1965,7 +1975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 92.71 94.488 90)
 			(effects
 				(font
@@ -2445,7 +2455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 92.71 84.328 90)
 			(effects
 				(font

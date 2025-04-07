@@ -2742,7 +2742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "103"
+		(property "Value" "10k"
 			(at 111.76 125.476 90)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "103"
+		(property "Value" "10k"
 			(at 114.3 125.476 90)
 			(effects
 				(font
@@ -3513,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "103"
+		(property "Value" "10k"
 			(at 109.22 125.476 90)
 			(effects
 				(font
@@ -3806,7 +3806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "103"
+		(property "Value" "10k"
 			(at 106.68 125.476 90)
 			(effects
 				(font

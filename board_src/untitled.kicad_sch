@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "3a96de45-8b51-4e39-ac77-46178ec465c0")
 	(paper "A4")
+	(title_block
+		(title "czujnik")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -1051,7 +1054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "103"
+		(property "Value" "10k"
 			(at 175.768 116.586 0)
 			(effects
 				(font
@@ -1060,7 +1063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 175.26 119.888 90)
 			(effects
 				(font
