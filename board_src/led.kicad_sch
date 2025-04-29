@@ -321,6 +321,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Filled_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -428,486 +610,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LS_Q976-NR-1:LS_Q976-NR-1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LS_Q976-NR-1"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDC1608X80N"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036602.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Standard LEDs - SMD Super Red, 633nm 180mcd, 20mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.8"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ams OSRAM"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LS Q976-NR-1"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LS_Q976-NR-1_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "VLMTG1300-GS08:VLMTG1300-GS08"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "VLMTG1300-GS08"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDC1608X100N"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Vishay VLMTG1300-GS08, 525 nm Green LED, 1608 (0603) SMD package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "VLMTG1300-GS08"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "VLMTG1300-GS08_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1095,6 +797,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 85.09) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06951595-aa07-4f02-8305-b91e6e3f3dcd")
+	)
+	(wire
+		(pts
 			(xy 217.17 43.18) (xy 205.74 43.18)
 		)
 		(stroke
@@ -1102,16 +814,6 @@
 			(type default)
 		)
 		(uuid "10e65392-4ed6-4796-a61a-c8888298be4d")
-	)
-	(wire
-		(pts
-			(xy 194.31 88.9) (xy 194.31 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1579f0e0-4c42-4972-a7ae-20d642382c7e")
 	)
 	(wire
 		(pts
@@ -1155,6 +857,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 96.52) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2943abc3-0ee4-4a77-a1aa-d3aa8ee89eae")
+	)
+	(wire
+		(pts
 			(xy 217.17 118.11) (xy 199.39 118.11)
 		)
 		(stroke
@@ -1195,6 +907,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 76.2) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448e6f0a-9b1a-454e-9854-bfafb9110d64")
+	)
+	(wire
+		(pts
+			(xy 194.31 67.31) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488db8f9-89fc-461b-af6e-a6aec6aa6dc1")
+	)
+	(wire
+		(pts
 			(xy 205.74 43.18) (xy 205.74 68.58)
 		)
 		(stroke
@@ -1225,7 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 88.9) (xy 217.17 118.11)
+			(xy 217.17 85.09) (xy 217.17 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1235,33 +967,43 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 76.2) (xy 181.61 85.09)
+			(xy 170.18 85.09) (xy 170.18 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e598b65-3ebf-4727-a1ce-254a1c88585a")
+		(uuid "58a16751-f319-44af-b44a-458ffe0de23b")
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 147.32 73.66)
+			(xy 181.61 76.2) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e75d98d-2116-4d7c-b18d-30058fd1b827")
+		(uuid "5c79c640-021f-425a-ae01-443dadd34bb7")
 	)
 	(wire
 		(pts
-			(xy 170.18 66.04) (xy 170.18 73.66)
+			(xy 170.18 66.04) (xy 170.18 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a140e23-b5ad-4501-abe8-86203572a651")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d1a163-a53b-41d1-bbff-152ed3bfb0f4")
 	)
 	(wire
 		(pts
@@ -1272,16 +1014,6 @@
 			(type default)
 		)
 		(uuid "711930fe-de51-4e64-a6ce-3716245d1abc")
-	)
-	(wire
-		(pts
-			(xy 170.18 88.9) (xy 170.18 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731894c9-ef97-4c9c-91e7-bef85cda889e")
 	)
 	(wire
 		(pts
@@ -1315,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 100.33) (xy 228.6 120.65)
+			(xy 228.6 96.52) (xy 228.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1325,17 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 158.75 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907d61b6-6fbe-4fe0-a411-551d51737ea7")
-	)
-	(wire
-		(pts
-			(xy 228.6 77.47) (xy 228.6 85.09)
+			(xy 228.6 77.47) (xy 228.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 120.65)
+			(xy 147.32 85.09) (xy 147.32 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1375,23 +1097,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 100.33) (xy 205.74 115.57)
+			(xy 205.74 96.52) (xy 205.74 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8f1f1bf-d0b0-40dc-bb21-ec6576961659")
-	)
-	(wire
-		(pts
-			(xy 158.75 100.33) (xy 158.75 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac613419-e792-48d1-ad13-8794367c46e1")
 	)
 	(wire
 		(pts
@@ -1402,16 +1114,6 @@
 			(type default)
 		)
 		(uuid "af6f85be-9aea-4031-ace9-cfd68997c214")
-	)
-	(wire
-		(pts
-			(xy 217.17 67.31) (xy 217.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7b5864-d758-4f05-ab4e-75efd0888c2e")
 	)
 	(wire
 		(pts
@@ -1455,6 +1157,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 66.04) (xy 147.32 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc05e2f7-7749-4a42-b06c-4e70f59132c2")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9afeeb-7407-4194-9a02-c25a7de2cfdb")
+	)
+	(wire
+		(pts
 			(xy 228.6 43.18) (xy 217.17 43.18)
 		)
 		(stroke
@@ -1485,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 76.2) (xy 205.74 85.09)
+			(xy 205.74 76.2) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1512,26 +1234,6 @@
 			(type default)
 		)
 		(uuid "ded5ab3c-1e87-40d7-b85f-c35863a3db0e")
-	)
-	(wire
-		(pts
-			(xy 194.31 67.31) (xy 194.31 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff8443d-9540-447e-909e-292280dc6cb7")
-	)
-	(wire
-		(pts
-			(xy 181.61 100.33) (xy 181.61 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ffe25c-337e-48a5-8d45-c9d6f0234223")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
@@ -1637,7 +1339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 229.87 74.422 0)
 			(effects
 				(font
@@ -1646,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.822 73.66 90)
 			(effects
 				(font
@@ -1706,7 +1408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 207.01 73.152 0)
 			(effects
 				(font
@@ -1715,7 +1417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.962 72.39 90)
 			(effects
 				(font
@@ -1758,8 +1460,8 @@
 		)
 	)
 	(symbol
-		(lib_id "VLMTG1300-GS08:VLMTG1300-GS08")
-		(at 228.6 100.33 90)
+		(lib_id "Device:LED_Filled")
+		(at 228.6 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1768,7 +1470,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ae090ef-6497-4fc4-8c5f-cb4d4e5294cd")
 		(property "Reference" "LED9"
-			(at 232.41 91.4399 90)
+			(at 232.41 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1479,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 232.41 93.9799 90)
+			(at 232.41 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,27 +1488,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X100N"
-			(at 322.25 87.63 0)
+			(at 228.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
-			(at 422.25 87.63 0)
+		(property "Datasheet" "~"
+			(at 228.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Vishay VLMTG1300-GS08, 525 nm Green LED, 1608 (0603) SMD package"
-			(at 228.6 100.33 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 228.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1515,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 622.25 87.63 0)
+			(at 622.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1525,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 722.25 87.63 0)
+			(at 722.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1535,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 822.25 87.63 0)
+			(at 822.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1545,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 922.25 87.63 0)
+			(at 922.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,12 +1555,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VLMTG1300-GS08"
-			(at 1022.25 87.63 0)
+			(at 1022.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1880,8 +1590,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LS_Q976-NR-1:LS_Q976-NR-1")
-		(at 147.32 88.9 90)
+		(lib_id "Device:LED_Filled")
+		(at 147.32 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1890,7 +1600,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f03a0ad-f5a0-46f9-97b4-30a0cb5b73d0")
 		(property "Reference" "LED2"
-			(at 151.13 80.0099 90)
+			(at 151.13 80.3274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1609,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 151.13 82.5499 90)
+			(at 151.13 82.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,27 +1618,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X80N"
-			(at 240.97 76.2 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036602.pdf"
-			(at 340.97 76.2 0)
+		(property "Datasheet" "~"
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Super Red, 633nm 180mcd, 20mA"
-			(at 147.32 88.9 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1645,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 540.97 76.2 0)
+			(at 540.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1655,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 640.97 76.2 0)
+			(at 640.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1665,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 740.97 76.2 0)
+			(at 740.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1675,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 840.97 76.2 0)
+			(at 840.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,12 +1685,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LS Q976-NR-1"
-			(at 940.97 76.2 0)
+			(at 940.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2002,8 +1720,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LS_Q976-NR-1:LS_Q976-NR-1")
-		(at 194.31 88.9 90)
+		(lib_id "Device:LED_Filled")
+		(at 194.31 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2012,7 +1730,7 @@
 		(fields_autoplaced yes)
 		(uuid "7de4e661-a3e3-4e76-a2ba-8b4c6e6338ff")
 		(property "Reference" "LED4"
-			(at 198.12 80.0099 90)
+			(at 198.12 80.3274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +1739,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 198.12 82.5499 90)
+			(at 198.12 82.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,27 +1748,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X80N"
-			(at 287.96 76.2 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036602.pdf"
-			(at 387.96 76.2 0)
+		(property "Datasheet" "~"
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Super Red, 633nm 180mcd, 20mA"
-			(at 194.31 88.9 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +1775,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 587.96 76.2 0)
+			(at 587.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +1785,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 687.96 76.2 0)
+			(at 687.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +1795,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 787.96 76.2 0)
+			(at 787.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +1805,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 887.96 76.2 0)
+			(at 887.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,12 +1815,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LS Q976-NR-1"
-			(at 987.96 76.2 0)
+			(at 987.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2141,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 171.45 62.992 0)
 			(effects
 				(font
@@ -2150,7 +1876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.402 62.23 90)
 			(effects
 				(font
@@ -2210,7 +1936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 148.59 62.992 0)
 			(effects
 				(font
@@ -2219,7 +1945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.542 62.23 90)
 			(effects
 				(font
@@ -2279,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 195.58 64.262 0)
 			(effects
 				(font
@@ -2288,7 +2014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 63.5 90)
 			(effects
 				(font
@@ -2414,7 +2140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 182.88 73.152 0)
 			(effects
 				(font
@@ -2423,7 +2149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 72.39 90)
 			(effects
 				(font
@@ -2466,8 +2192,8 @@
 		)
 	)
 	(symbol
-		(lib_id "VLMTG1300-GS08:VLMTG1300-GS08")
-		(at 181.61 100.33 90)
+		(lib_id "Device:LED_Filled")
+		(at 181.61 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2476,7 +2202,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfd4628b-01fa-43d9-bad2-b3b4e87eef1c")
 		(property "Reference" "LED7"
-			(at 185.42 91.4399 90)
+			(at 185.42 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2211,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 185.42 93.9799 90)
+			(at 185.42 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,27 +2220,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X100N"
-			(at 275.26 87.63 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
-			(at 375.26 87.63 0)
+		(property "Datasheet" "~"
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Vishay VLMTG1300-GS08, 525 nm Green LED, 1608 (0603) SMD package"
-			(at 181.61 100.33 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2247,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 575.26 87.63 0)
+			(at 575.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2257,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 675.26 87.63 0)
+			(at 675.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2267,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 775.26 87.63 0)
+			(at 775.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2277,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 875.26 87.63 0)
+			(at 875.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,12 +2287,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VLMTG1300-GS08"
-			(at 975.26 87.63 0)
+			(at 975.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2588,8 +2322,8 @@
 		)
 	)
 	(symbol
-		(lib_id "VLMTG1300-GS08:VLMTG1300-GS08")
-		(at 205.74 100.33 90)
+		(lib_id "Device:LED_Filled")
+		(at 205.74 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2598,7 +2332,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2d1f9bb-b03c-4c04-958b-de71955b9dbb")
 		(property "Reference" "LED8"
-			(at 209.55 91.4399 90)
+			(at 209.55 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2341,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 209.55 93.9799 90)
+			(at 209.55 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,27 +2350,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X100N"
-			(at 299.39 87.63 0)
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
-			(at 399.39 87.63 0)
+		(property "Datasheet" "~"
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Vishay VLMTG1300-GS08, 525 nm Green LED, 1608 (0603) SMD package"
-			(at 205.74 100.33 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2377,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 599.39 87.63 0)
+			(at 599.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2387,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 699.39 87.63 0)
+			(at 699.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2397,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 799.39 87.63 0)
+			(at 799.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2407,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 899.39 87.63 0)
+			(at 899.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,12 +2417,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VLMTG1300-GS08"
-			(at 999.39 87.63 0)
+			(at 999.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 209.55 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2727,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 218.44 64.262 0)
 			(effects
 				(font
@@ -2736,7 +2478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.392 63.5 90)
 			(effects
 				(font
@@ -2779,8 +2521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LS_Q976-NR-1:LS_Q976-NR-1")
-		(at 217.17 88.9 90)
+		(lib_id "Device:LED_Filled")
+		(at 217.17 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2789,7 +2531,7 @@
 		(fields_autoplaced yes)
 		(uuid "c986c6f2-7c7c-48bc-afe7-f60af939e0c3")
 		(property "Reference" "LED5"
-			(at 220.98 80.0099 90)
+			(at 220.98 80.3274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2540,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 220.98 82.5499 90)
+			(at 220.98 82.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,27 +2549,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X80N"
-			(at 310.82 76.2 0)
+			(at 217.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036602.pdf"
-			(at 410.82 76.2 0)
+		(property "Datasheet" "~"
+			(at 217.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Super Red, 633nm 180mcd, 20mA"
-			(at 217.17 88.9 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 217.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2576,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 610.82 76.2 0)
+			(at 610.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2586,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 710.82 76.2 0)
+			(at 710.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2596,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 810.82 76.2 0)
+			(at 810.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2606,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 910.82 76.2 0)
+			(at 910.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,12 +2616,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LS Q976-NR-1"
-			(at 1010.82 76.2 0)
+			(at 1010.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2901,8 +2651,8 @@
 		)
 	)
 	(symbol
-		(lib_id "VLMTG1300-GS08:VLMTG1300-GS08")
-		(at 158.75 100.33 90)
+		(lib_id "Device:LED_Filled")
+		(at 158.75 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2911,7 +2661,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca62c484-5ac2-46b5-9f90-5efb2dd257c4")
 		(property "Reference" "LED6"
-			(at 162.56 91.4399 90)
+			(at 162.56 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +2670,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 162.56 93.9799 90)
+			(at 162.56 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,27 +2679,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X100N"
-			(at 252.4 87.63 0)
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
-			(at 352.4 87.63 0)
+		(property "Datasheet" "~"
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Vishay VLMTG1300-GS08, 525 nm Green LED, 1608 (0603) SMD package"
-			(at 158.75 100.33 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2706,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 552.4 87.63 0)
+			(at 552.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +2716,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 652.4 87.63 0)
+			(at 652.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +2726,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 752.4 87.63 0)
+			(at 752.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +2736,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 852.4 87.63 0)
+			(at 852.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,12 +2746,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VLMTG1300-GS08"
-			(at 952.4 87.63 0)
+			(at 952.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 96.8374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3040,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "221"
 			(at 160.02 73.152 0)
 			(effects
 				(font
@@ -3049,7 +2807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 72.39 90)
 			(effects
 				(font
@@ -3092,8 +2850,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LS_Q976-NR-1:LS_Q976-NR-1")
-		(at 170.18 88.9 90)
+		(lib_id "Device:LED_Filled")
+		(at 170.18 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3102,7 +2860,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0c1a494-1ac7-4fd1-8544-34e5911cf845")
 		(property "Reference" "LED3"
-			(at 173.99 80.0099 90)
+			(at 173.99 80.3274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +2869,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 173.99 82.5499 90)
+			(at 173.99 82.8674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,27 +2878,25 @@
 			)
 		)
 		(property "Footprint" "footprints:LEDC1608X80N"
-			(at 263.83 76.2 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0036602.pdf"
-			(at 363.83 76.2 0)
+		(property "Datasheet" "~"
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Super Red, 633nm 180mcd, 20mA"
-			(at 170.18 88.9 0)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +2905,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 563.83 76.2 0)
+			(at 563.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +2915,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 663.83 76.2 0)
+			(at 663.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +2925,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 763.83 76.2 0)
+			(at 763.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +2935,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 863.83 76.2 0)
+			(at 863.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,12 +2945,22 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LS Q976-NR-1"
-			(at 963.83 76.2 0)
+			(at 963.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 173.99 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

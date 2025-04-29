@@ -1,4 +1,4 @@
-24775392764361880
+24780627709074187
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99540,12 +99540,26 @@ Loudspeaker or Buzzer
 2
 2
 footprints
+CLSB12C01
+CL-SB-12C-01-1
+Switch
+0
+3
+3
+footprints
 Crystal_SMD_HC49-US
 SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
 SMD SMT crystal
 0
 2
 2
+footprints
+DIP781W56P254L950H533Q8N
+8-Lead Plastic Dual In-Line (P) - 300 mil Body [PDIP]
+Integrated Circuit
+0
+8
+8
 footprints
 DS18B20
 DS18B20+-6
@@ -99658,6 +99672,13 @@ Battery
 0
 2
 2
+footprints
+przelotka
+
+
+0
+0
+0
 footprints
 przycisk
 LSH GULLWING

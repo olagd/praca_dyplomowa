@@ -1,0 +1,66 @@
+(footprint "przelotka"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "demo**"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7e6e76b-a5f0-4f4a-81a7-3530441e7ba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "przelotka"
+		(at 0 1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8426ee52-5059-4190-b30f-68b499ae7a1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7c9572f-de85-4ae2-9b85-29cd6ff4e6a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07c52687-3cab-43cb-aed5-06bd989dbb3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start 0 3)
+		(mid 0 -3)
+		(end 0 3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f737d44-0a5f-4056-8bf6-7a5125911df8")
+	)
+	(embedded_fonts no)
+)

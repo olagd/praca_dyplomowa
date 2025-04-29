@@ -21,4 +21,6 @@
   (lib (name "3012")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/3012.kicad_sym")(options "")(descr ""))
   (lib (name "RC1602B-BIW-ESX")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/RC1602B-BIW-ESX.kicad_sym")(options "")(descr ""))
   (lib (name "FT232RNL-TUBE")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/FT232RNL-TUBE.kicad_sym")(options "")(descr ""))
+  (lib (name "CL-SB-12C-01")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/CL-SB-12C-01.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP4921-E_P")(type "KiCad")(uri "${KIPRJMOD}/Library/symbols/MCP4921-E_P.kicad_sym")(options "")(descr ""))
 )

@@ -638,752 +638,612 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "przycisk:1301.9319"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S1"
-				(at 22.098 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1301.9319"
-				(at 22.098 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprints:przycisk"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-				(at 13.716 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "9"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "SCHURTER"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1301.9319"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1301.9319_1_1"
-				(rectangle
-					(start 19.05 1.27)
-					(end 25.4 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 13.97 0 0)
-					(length 5.08)
-					(name "NO_1"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -2.54 0)
-					(length 5.08)
-					(name "COM_1"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "NO_2"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "COM_2"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "przyciski"
-		(exclude_from_sim no)
-		(at 78.232 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "75c2efb1-a81c-4408-a458-053b87efd6ce")
 	)
 	(junction
-		(at 93.98 99.06)
+		(at 201.93 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "606e6c80-da8e-447f-b6e0-7925daf609f5")
+		(uuid "1f720d9a-6326-4e92-9588-389ddedc269f")
 	)
 	(junction
-		(at 171.45 99.06)
+		(at 158.75 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8338bc1b-e7c4-4afa-89e6-70e8a7a3bd9c")
+		(uuid "5e8cf868-9d59-456c-a8b7-761deeff2456")
 	)
 	(junction
-		(at 132.08 99.06)
+		(at 218.44 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89c50b79-0f14-4cf0-8145-67472e05d98b")
+		(uuid "77e20e6a-95fe-4a22-ac77-d39563bbf9ba")
 	)
 	(junction
-		(at 113.03 99.06)
+		(at 186.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89d88c96-8d4c-4df5-851e-28bcf1e5a1e3")
+		(uuid "a0b888e4-60b7-4d9f-8513-2e967c655cdd")
 	)
 	(junction
-		(at 151.13 99.06)
+		(at 143.51 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f3a9be4-0803-41a2-bba6-ca2cf8fc17ea")
+		(uuid "ae97ec7f-0a26-4d21-985f-30d50b0152d9")
 	)
 	(junction
-		(at 191.77 99.06)
+		(at 172.72 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95731808-4c45-4f52-a10c-34c88227ca39")
+		(uuid "da4845b3-9029-4b44-9214-2c1bf6ee807b")
 	)
 	(junction
-		(at 212.09 99.06)
+		(at 128.27 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d9f1736-352c-4bf5-9812-30bc4626fa30")
+		(uuid "e370f9b9-dbdb-474e-9b9f-308b4b9da24f")
 	)
 	(no_connect
-		(at 167.64 92.71)
-		(uuid "0212f8c3-c4b4-4147-8895-63ac74d0f3bd")
+		(at 156.21 91.44)
+		(uuid "0413d0c3-33d5-4028-837d-7b4e80aade35")
 	)
 	(no_connect
-		(at 90.17 95.25)
-		(uuid "0a370eb0-d088-4a44-bddf-0d3c8e6aea0f")
+		(at 140.97 91.44)
+		(uuid "0a2ba825-4115-4387-815a-df97b448f323")
 	)
 	(no_connect
-		(at 187.96 95.25)
-		(uuid "1453e219-e7fe-420f-8800-c0e0ad65a429")
+		(at 170.18 91.44)
+		(uuid "1fcc219e-cdbc-42fd-a835-257e0aa98cde")
 	)
 	(no_connect
-		(at 208.28 95.25)
-		(uuid "185f22bf-34bc-486e-9b4a-a353338604df")
+		(at 198.12 91.44)
+		(uuid "2213e76b-77d1-4ccd-bbbe-67a7a3da5881")
 	)
 	(no_connect
-		(at 110.49 95.25)
-		(uuid "18c9b55f-07ba-48a0-a99c-fc6bf9329a59")
+		(at 203.2 91.44)
+		(uuid "2b7a6285-a7c7-424c-a405-dcd217106777")
 	)
 	(no_connect
-		(at 167.64 95.25)
-		(uuid "2006258b-ba04-4fcf-947f-f1f6f8a9d55c")
+		(at 160.02 91.44)
+		(uuid "5e1f8f3a-e359-443f-b96d-c775637e4dbf")
 	)
 	(no_connect
-		(at 228.6 92.71)
-		(uuid "3bbe8be6-fe26-4bd5-869f-0db724462d86")
+		(at 173.99 91.44)
+		(uuid "66145062-0d0d-4604-aaba-ce39981fdaac")
 	)
 	(no_connect
-		(at 90.17 92.71)
-		(uuid "6a0963d7-81a0-4d43-9035-d2d51392ac1f")
+		(at 146.05 91.44)
+		(uuid "68f99d7f-c433-409f-9c4b-9ecc81b7e620")
 	)
 	(no_connect
-		(at 110.49 92.71)
-		(uuid "7f54c722-e90d-4bed-8e5d-8a2ad841d551")
+		(at 187.96 91.44)
+		(uuid "6c6afab5-bca7-4918-95fc-962f99f0694f")
 	)
 	(no_connect
-		(at 187.96 92.71)
-		(uuid "822238c3-839d-4708-a4a1-61fbb3271429")
+		(at 125.73 91.44)
+		(uuid "6cd2d793-d0f7-4857-9e44-5a1f9d60bbc5")
 	)
 	(no_connect
-		(at 129.54 92.71)
-		(uuid "87a8735d-2960-4dc9-bd8e-6375702cbb99")
+		(at 115.57 91.44)
+		(uuid "7641e45c-0442-4f56-b9b0-1b44466246d8")
 	)
 	(no_connect
-		(at 129.54 95.25)
-		(uuid "8ce84c6d-f67f-4da9-953f-973500c2bd90")
+		(at 213.36 91.44)
+		(uuid "9343af15-86a9-4b7e-851b-550875a56410")
 	)
 	(no_connect
-		(at 148.59 95.25)
-		(uuid "c1ce8b22-ce3b-4fa8-9f5f-b0d0ef25f5a7")
+		(at 184.15 91.44)
+		(uuid "a90a15c3-258d-4696-9087-e9d36e1b753a")
 	)
 	(no_connect
-		(at 148.59 92.71)
-		(uuid "cedb0b32-f4ed-498d-b3b5-256fac4740c9")
+		(at 109.22 91.44)
+		(uuid "b6120076-4993-4cb2-9ef6-1909983b8462")
 	)
 	(no_connect
-		(at 228.6 95.25)
-		(uuid "d735a1b4-ff4e-488c-b86f-93c3ba77424d")
+		(at 130.81 91.44)
+		(uuid "e76ada3c-1354-4b4b-b54b-b68712aa04ba")
 	)
 	(no_connect
-		(at 208.28 92.71)
-		(uuid "dd01ee44-b0b0-4783-bc7a-dff379a44470")
+		(at 99.06 91.44)
+		(uuid "eeb1ae7e-f106-4527-845f-55291f9d6eef")
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 132.08 99.06)
+			(xy 128.27 99.06) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "134fdbb8-7dda-46c5-ae0b-ef20cbd4fff5")
+		(uuid "0043ecf5-7374-48a4-8e08-1d48d4a6c389")
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 132.08 82.55)
+			(xy 184.15 88.9) (xy 186.69 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a2d7b52-9704-4606-bee8-811ac86b004d")
+		(uuid "0339c5d8-bf4e-4caa-9d2c-f5e5bd06cbdc")
 	)
 	(wire
 		(pts
-			(xy 212.09 95.25) (xy 212.09 99.06)
+			(xy 153.67 77.47) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dc794cb-0c0b-4fdd-bee3-24b84657083b")
+		(uuid "09ed5a4f-6bc1-4008-ad4a-20f818d4d262")
 	)
 	(wire
 		(pts
-			(xy 146.05 78.74) (xy 113.03 78.74)
+			(xy 140.97 74.93) (xy 140.97 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2658ad4b-7d4d-46a0-bd1f-8863c0670da1")
+		(uuid "0adae1a4-46de-4c45-8643-f5a03ff34980")
 	)
 	(wire
 		(pts
-			(xy 132.08 99.06) (xy 151.13 99.06)
+			(xy 172.72 99.06) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28fda936-d8f7-4cae-bd75-aab467865d24")
+		(uuid "0ce7e262-2dfa-4fea-a4a1-814ec66f216e")
 	)
 	(wire
 		(pts
-			(xy 212.09 76.2) (xy 212.09 92.71)
+			(xy 218.44 88.9) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ab2122c-f86e-4970-8e7c-18f9a9f6ea3a")
+		(uuid "0d7e67fb-28b5-4101-aeea-3deb3dce93ad")
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 113.03 99.06)
+			(xy 113.03 99.06) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c4624fa-bf81-4745-ad6a-0cc700524b0e")
+		(uuid "0efe9852-2dbb-45ef-8152-b0d71bae231d")
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 171.45 83.82)
+			(xy 173.99 77.47) (xy 153.67 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c7b8282-40b2-427d-a891-0b822ee8e343")
+		(uuid "1f588994-7800-4609-a760-7cd6cd6113f9")
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 93.98 99.06)
+			(xy 201.93 99.06) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e2a3d71-16c6-444d-9e0d-8f9aa699834d")
+		(uuid "23179de3-052f-4010-9094-111460dbc691")
 	)
 	(wire
 		(pts
-			(xy 191.77 80.01) (xy 191.77 92.71)
+			(xy 130.81 77.47) (xy 146.05 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36b57846-86de-4af5-adc1-365934b18e55")
+		(uuid "2591dc0b-176a-4b2c-812e-cbc7973c621b")
 	)
 	(wire
 		(pts
-			(xy 143.51 76.2) (xy 93.98 76.2)
+			(xy 148.59 78.74) (xy 148.59 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d02b864-e9fc-4236-896b-4cbd221fc26a")
+		(uuid "2caa23cc-ce0d-4525-a174-a8b0ef81bfa8")
 	)
 	(wire
 		(pts
-			(xy 191.77 95.25) (xy 191.77 99.06)
+			(xy 128.27 88.9) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c54ca27-20f4-44a8-be13-763331b364be")
+		(uuid "2cf8b217-add1-40e5-b744-0a11278d7f62")
 	)
 	(wire
 		(pts
-			(xy 156.21 80.01) (xy 191.77 80.01)
+			(xy 218.44 99.06) (xy 226.06 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "560ba44d-309b-4938-9e07-42c4f93e9404")
+		(uuid "450a4ee9-bf1f-4500-b944-a615aeb8d558")
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 73.66 72.39)
+			(xy 160.02 88.9) (xy 160.02 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68e8fa0c-b107-4926-be51-31361b69b816")
+		(uuid "49882fe9-0725-4cff-9dfa-d7b8e7dc51b2")
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 171.45 99.06)
+			(xy 172.72 88.9) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "695b4f20-a191-4a36-875e-cdcedec7227e")
+		(uuid "5227969f-cb4d-4df1-bb5e-b8ac968d5687")
 	)
 	(wire
 		(pts
-			(xy 132.08 95.25) (xy 132.08 99.06)
+			(xy 99.06 88.9) (xy 93.98 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70b03166-bf5b-4b92-ad26-86d603afc9c5")
+		(uuid "53fd1c2b-379b-48e9-b331-2cd5cce997f6")
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 93.98 92.71)
+			(xy 186.69 99.06) (xy 201.93 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75f639f4-58a2-49b1-abf4-9b501e29d10e")
+		(uuid "55ebbd72-5445-4043-a632-74da5515e4fc")
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 212.09 99.06)
+			(xy 140.97 88.9) (xy 143.51 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b474655-9c71-420c-8a0f-9c0697a0de50")
+		(uuid "5640cb1a-7139-43fd-8f03-ab0c595806f6")
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 191.77 99.06)
+			(xy 203.2 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "845ac731-e4f0-48ba-bece-a331d0219fe6")
+		(uuid "6062f91a-1b7a-49f8-a615-69ea9064a47d")
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 212.09 76.2)
+			(xy 146.05 77.47) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89021849-3c3f-4ec5-bf9a-1da0af40c890")
+		(uuid "65ba9d0d-5ebb-4912-b2af-c48f84a89a0c")
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 146.05 78.74)
+			(xy 187.96 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90df30b6-0c8a-4033-ae83-f3041fc835f4")
+		(uuid "66e7c6cf-2c99-4b02-b45f-cca12e35ac35")
 	)
 	(wire
 		(pts
-			(xy 73.66 72.39) (xy 73.66 92.71)
+			(xy 201.93 88.9) (xy 201.93 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c00fab7-0d6d-441b-a319-ed38d528dcc5")
+		(uuid "685dd278-e979-4cdc-a12b-0939c730f439")
 	)
 	(wire
 		(pts
-			(xy 212.09 99.06) (xy 212.09 109.22)
+			(xy 125.73 88.9) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2d01c85-6b46-4634-9223-04f571cadb05")
+		(uuid "68e99620-3e97-4b58-a6a2-186b3f90351a")
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 148.59 82.55)
+			(xy 213.36 88.9) (xy 218.44 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a801983d-e4f6-43b1-9395-d83b63a7982d")
+		(uuid "775f5b98-5dbf-471a-8a9c-b3f2f59dc409")
 	)
 	(wire
 		(pts
-			(xy 143.51 72.39) (xy 143.51 76.2)
+			(xy 143.51 76.2) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac0e8985-0c74-431e-a79b-fcce6851acba")
+		(uuid "783f0a42-2cd2-4fd4-b89a-47419ead2bae")
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 158.75 76.2)
+			(xy 158.75 74.93) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b087db7b-81e2-48e4-b76b-b37b7166df28")
+		(uuid "7fc244da-5f6d-4ee3-b471-0674e0783571")
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 92.71)
+			(xy 160.02 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8a44ba0-98d8-4919-bc7e-204364de5093")
+		(uuid "8618e287-a21c-4a26-b880-94a75c026ef8")
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 171.45 99.06)
+			(xy 130.81 88.9) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c15236a2-9198-4ae4-a27c-3a495a5b2a17")
+		(uuid "8e1a027e-3f01-4a30-8d29-d686c22f8607")
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 93.98 99.06)
+			(xy 146.05 78.74) (xy 148.59 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1eb8cf4-65ac-41a4-b0cd-4fd128c66840")
+		(uuid "8fc115bb-2d74-4b2e-8ca8-079831ae2a8e")
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 113.03 92.71)
+			(xy 115.57 88.9) (xy 115.57 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc48e98d-a9ce-472b-968f-6d4407a81064")
+		(uuid "939caa8d-33f9-4171-9146-4cba02ac46c1")
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 73.66 99.06)
+			(xy 173.99 88.9) (xy 173.99 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd35f1fb-7cb3-4bc0-b044-4277a5a0b2a1")
+		(uuid "97b57a01-8bd5-4a49-a5a5-472cf1ed35bd")
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 151.13 99.06)
+			(xy 186.69 88.9) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd81ea3a-d404-459f-a20c-4d23abd8fcc7")
+		(uuid "98325650-0d26-4d37-acc9-ec45fd3a90ab")
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 171.45 92.71)
+			(xy 226.06 99.06) (xy 226.06 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d38e3b0d-acea-4e52-95c1-b6d9d4967e55")
+		(uuid "991c4dec-5619-42c4-95f1-cd662ef3be11")
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 151.13 92.71)
+			(xy 143.51 88.9) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6ef18c7-eff4-463b-9231-ce810ddd5add")
+		(uuid "9c9444e2-dde2-432b-9a79-020924d4200b")
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 113.03 99.06)
+			(xy 158.75 99.06) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dac09a5e-077c-4abf-817a-b12b18669005")
+		(uuid "9cbf4f0c-0b3c-43c2-a3f3-035cbc8df82f")
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 153.67 83.82)
+			(xy 203.2 88.9) (xy 203.2 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0aea08e-2242-4d3f-8cfc-aac737a02d20")
+		(uuid "a3086781-5af4-4972-9d7e-d16c9e2ae689")
 	)
 	(wire
 		(pts
-			(xy 156.21 72.39) (xy 156.21 80.01)
+			(xy 187.96 88.9) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9f4cd52-2578-4ff2-b434-d235371a5f51")
+		(uuid "a64541f0-6d7b-4bcd-8f90-2bf5fb3d4292")
 	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 83.82 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08686432-d16d-4a6d-890d-617a41e00359")
-		(property "Reference" "SW1"
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 143.51 76.2)
 		)
-		(property "Value" "SW_MEC_5E"
-			(at 83.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 83.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "a6b7da30-cba2-4391-80be-539edbc7c081")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 158.75 88.9)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 83.82 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 83.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(uuid "a9a4b945-468d-4e85-86de-3f9121428ed6")
+	)
+	(wire
+		(pts
+			(xy 143.51 99.06) (xy 158.75 99.06)
 		)
-		(pin "4"
-			(uuid "d3204317-25ba-4212-9207-1b60efe87123")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "2"
-			(uuid "bb125b55-3fd6-4353-931c-45cf5747f84f")
+		(uuid "aa3499e1-85d0-4324-a716-04e91610e79e")
+	)
+	(wire
+		(pts
+			(xy 156.21 76.2) (xy 156.21 72.39)
 		)
-		(pin "1"
-			(uuid "6d589bd5-338b-42dc-81d2-9ec152417203")
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(pin "3"
-			(uuid "2510bc14-4cfa-4078-899f-d97b620c4449")
+		(uuid "b6bfd86f-6adf-40eb-a508-8f14f3cd8c63")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 158.75 99.06)
 		)
-		(instances
-			(project ""
-				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/55a14567-f1b3-493a-ad76-30ad6f394af6"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "b7c14c3e-26f5-4fe1-bbd7-eac19470a4f0")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c025cf35-d62d-4da0-b896-09321ad3a0d4")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c152cd91-461c-4123-ad52-e16517518a20")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94ce3df-b567-4e74-83e2-7c0aca26918e")
+	)
+	(wire
+		(pts
+			(xy 146.05 88.9) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3eeb97d-b4e5-48a5-b115-7c3d2481bd49")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 113.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60ba1ce-7b1e-4a72-a5cd-ec4d82aadaa1")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5714ac-bc51-485e-a0ca-df37c038cd13")
+	)
+	(wire
+		(pts
+			(xy 170.18 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e749f15b-1c31-452b-9318-985ec5e87ad3")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f10d58-676c-4405-a680-79a712dc6c23")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
@@ -1472,8 +1332,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 157.48 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 179.07 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1481,7 +1341,7 @@
 		(dnp no)
 		(uuid "336fe204-f7d5-4496-95e0-372e9c9b49f5")
 		(property "Reference" "S8"
-			(at 179.578 87.376 0)
+			(at 179.324 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,35 +1349,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 179.578 89.916 0)
+			(at 179.324 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 184.15 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 184.15 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 171.196 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1384,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 184.15 487.63 0)
+			(at 205.74 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1394,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 184.15 587.63 0)
+			(at 205.74 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1404,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 184.15 687.63 0)
+			(at 205.74 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1414,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 184.15 787.63 0)
+			(at 205.74 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1424,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 184.15 887.63 0)
+			(at 205.74 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,8 +1455,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 137.16 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 165.1 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1606,7 +1464,7 @@
 		(dnp no)
 		(uuid "34809d33-7c86-4db1-a812-b7b52515434f")
 		(property "Reference" "S7"
-			(at 159.258 87.376 0)
+			(at 165.354 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,35 +1472,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 159.258 89.916 0)
+			(at 165.354 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 163.83 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 163.83 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 150.876 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1507,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 163.83 487.63 0)
+			(at 191.77 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1517,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 163.83 587.63 0)
+			(at 191.77 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1527,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 163.83 687.63 0)
+			(at 191.77 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1537,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 163.83 787.63 0)
+			(at 191.77 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1547,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 163.83 887.63 0)
+			(at 191.77 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,8 +1578,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 198.12 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 208.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1731,7 +1587,7 @@
 		(dnp no)
 		(uuid "9cef8f40-69f8-461a-bcdf-0443aaa95214")
 		(property "Reference" "S10"
-			(at 220.218 87.376 0)
+			(at 208.534 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,35 +1595,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 220.218 89.916 0)
+			(at 208.534 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 224.79 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 224.79 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 211.836 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +1630,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 224.79 487.63 0)
+			(at 234.95 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1640,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 224.79 587.63 0)
+			(at 234.95 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1650,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 224.79 687.63 0)
+			(at 234.95 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1660,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 224.79 787.63 0)
+			(at 234.95 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1670,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 224.79 887.63 0)
+			(at 234.95 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,8 +1701,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 99.06 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 135.89 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1856,7 +1710,7 @@
 		(dnp no)
 		(uuid "ac018f9b-329f-42c0-be6e-e7f0da5f9fce")
 		(property "Reference" "S5"
-			(at 121.158 87.376 0)
+			(at 136.398 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,35 +1718,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 121.158 89.916 0)
+			(at 136.398 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 125.73 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 135.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 125.73 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 135.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 112.776 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 135.89 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1753,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 125.73 487.63 0)
+			(at 162.56 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1763,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 125.73 587.63 0)
+			(at 162.56 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1773,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 125.73 687.63 0)
+			(at 162.56 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1783,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 125.73 787.63 0)
+			(at 162.56 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1793,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 125.73 887.63 0)
+			(at 162.56 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,8 +1824,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 59.69 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 104.14 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1981,7 +1833,7 @@
 		(dnp no)
 		(uuid "b29715f4-a608-450f-90ac-c541ad70025a")
 		(property "Reference" "S3"
-			(at 81.788 87.376 0)
+			(at 104.14 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,35 +1841,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 81.788 89.916 0)
+			(at 104.14 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 86.36 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 86.36 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 73.406 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +1876,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 86.36 487.63 0)
+			(at 130.81 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +1886,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 86.36 587.63 0)
+			(at 130.81 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +1896,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 86.36 687.63 0)
+			(at 130.81 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +1906,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 86.36 787.63 0)
+			(at 130.81 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +1916,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 86.36 887.63 0)
+			(at 130.81 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,8 +1947,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 177.8 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 193.04 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2106,7 +1956,7 @@
 		(dnp no)
 		(uuid "d2ec7308-0acf-47a1-83a4-6d8599d213a7")
 		(property "Reference" "S9"
-			(at 199.898 87.376 0)
+			(at 193.04 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,35 +1964,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 199.898 89.916 0)
+			(at 193.04 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 204.47 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 204.47 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 191.516 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 193.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +1999,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 204.47 487.63 0)
+			(at 219.71 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2009,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 204.47 587.63 0)
+			(at 219.71 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2019,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 204.47 687.63 0)
+			(at 219.71 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2029,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 204.47 787.63 0)
+			(at 219.71 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2039,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 204.47 887.63 0)
+			(at 219.71 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,8 +2070,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 80.01 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 120.65 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2231,7 +2079,7 @@
 		(dnp no)
 		(uuid "d6e32a0e-ac80-433a-a9d9-73cf2f7d1b0a")
 		(property "Reference" "S4"
-			(at 102.108 87.376 0)
+			(at 120.396 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,35 +2087,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 102.108 89.916 0)
+			(at 120.65 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 106.68 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 106.68 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 93.726 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 120.65 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2122,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 106.68 487.63 0)
+			(at 147.32 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2132,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 106.68 587.63 0)
+			(at 147.32 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2142,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 106.68 687.63 0)
+			(at 147.32 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2152,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 106.68 787.63 0)
+			(at 147.32 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2162,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 106.68 887.63 0)
+			(at 147.32 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 109.22 0)
+		(at 226.06 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2357,7 +2203,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9a3a640-9bf4-4709-84b4-091d01185677")
 		(property "Reference" "#PWR020"
-			(at 212.09 115.57 0)
+			(at 226.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2212,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 114.3 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 109.22 0)
+			(at 226.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 109.22 0)
+			(at 226.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 109.22 0)
+			(at 226.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,8 +2259,8 @@
 		)
 	)
 	(symbol
-		(lib_id "przycisk:1301.9319")
-		(at 118.11 92.71 0)
+		(lib_id "Switch:SW_MEC_5E")
+		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2422,7 +2268,7 @@
 		(dnp no)
 		(uuid "ee788da5-7bfd-4db2-b29d-bfbdbbd94da3")
 		(property "Reference" "S6"
-			(at 140.208 87.376 0)
+			(at 151.638 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,35 +2276,33 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 140.208 89.916 0)
+			(at 151.638 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:przycisk"
-			(at 144.78 187.63 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_6x6_mm_tact_switches.pdf"
-			(at 144.78 287.63 0)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 151.13 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "IP40 Black Button Tactile Switch, SPST-NO 7.75mm"
-			(at 131.826 81.026 0)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2311,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 144.78 487.63 0)
+			(at 177.8 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2321,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 144.78 587.63 0)
+			(at 177.8 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2331,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 144.78 687.63 0)
+			(at 177.8 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2341,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 144.78 787.63 0)
+			(at 177.8 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2351,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 144.78 887.63 0)
+			(at 177.8 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -624,6 +624,24 @@
           "label": "Height",
           "name": "Height",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Part Number",
+          "name": "TME Electronic Components Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME Electronic Components Price/Stock",
+          "name": "TME Electronic Components Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -679,12 +697,12 @@
       "Root"
     ],
     [
-      "8b8e205f-8cd6-4f90-881c-a100662c7649",
-      "EEPROM"
-    ],
-    [
       "4ce4dd53-34e3-426c-821d-561d412e5bd5",
       "Czujnik temperatury"
+    ],
+    [
+      "8b8e205f-8cd6-4f90-881c-a100662c7649",
+      "EEPROM"
     ],
     [
       "13e729e2-af22-4566-902c-35554dc60200",
@@ -707,16 +725,16 @@
       "Dioda RGB"
     ],
     [
-      "b28b7f90-4697-49e2-9c2e-20213e860225",
-      "LED"
-    ],
-    [
       "b05c8f1b-3a6f-4219-9b92-1975eaafd5f3",
       "Port USB"
     ],
     [
+      "b28b7f90-4697-49e2-9c2e-20213e860225",
+      "LED"
+    ],
+    [
       "72381f9f-0261-4c9d-a878-5b854177e01f",
-      "Przetwornik analoowo-cyfrowy"
+      "Przetwornik analogowo-cyfrowy"
     ],
     [
       "55a14567-f1b3-493a-ad76-30ad6f394af6",
@@ -729,6 +747,10 @@
     [
       "99f2b7c2-bf4b-48af-983c-5ee0acdebe2a",
       "Wyświetlacz LCD"
+    ],
+    [
+      "a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc",
+      "Przetwornik cyfrowo-analogowy"
     ]
   ],
   "text_variables": {}
