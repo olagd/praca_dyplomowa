@@ -2388,7 +2388,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 176.53 76.2 180)
+		(at 176.53 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2396,7 +2396,7 @@
 		(dnp no)
 		(uuid "f8eede38-ba47-4780-a981-16a9227c159a")
 		(property "Reference" "Y2"
-			(at 174.244 80.518 90)
+			(at 178.816 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2405,7 @@
 			)
 		)
 		(property "Value" "Crystal"
-			(at 178.816 73.152 90)
+			(at 174.244 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)

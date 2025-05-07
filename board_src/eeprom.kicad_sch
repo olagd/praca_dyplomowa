@@ -779,16 +779,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "czy chcemy mieć możliwość zapisu do eeprom?"
-		(exclude_from_sim no)
-		(at 172.466 71.628 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "49c05acc-c8f4-4c28-b588-b3036d32f626")
-	)
 	(junction
 		(at 149.86 97.79)
 		(diameter 0)
