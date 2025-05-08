@@ -1339,7 +1339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 229.87 74.422 0)
 			(effects
 				(font
@@ -1408,7 +1408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 207.01 73.152 0)
 			(effects
 				(font
@@ -1867,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 171.45 62.992 0)
 			(effects
 				(font
@@ -1936,7 +1936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 148.59 62.992 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 195.58 64.262 0)
 			(effects
 				(font
@@ -2140,7 +2140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 182.88 73.152 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 218.44 64.262 0)
 			(effects
 				(font
@@ -2798,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 160.02 73.152 0)
 			(effects
 				(font

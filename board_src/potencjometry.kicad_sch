@@ -5,219 +5,6 @@
 	(uuid "be0cc7a5-2088-4c00-8d63-2242842b8129")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BMT0905XH05:BMT0905XH05"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at 11.43 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BMT0905XH05"
-				(at 11.43 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "BMT0905XH05"
-				(at 11.43 -102.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/7f0b1b0d974635411dcfb4c191f1c3ad/BMT-0905XH05.pdf"
-				(at 11.43 -202.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Electro-magnetic Transducer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5"
-				(at 11.43 -402.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 11.43 -502.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 11.43 -602.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "BeStar Electronics"
-				(at 11.43 -702.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BMT0905XH05"
-				(at 11.43 -802.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BMT0905XH05_1_1"
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 7.112 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -3.81) (xy 9.652 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.652 3.81) (xy 7.112 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.652 3.81) (xy 9.652 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -379,6 +166,167 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -677,55 +625,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:SS8550"
+		(symbol "Simulation_SPICE:NPN"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at -2.54 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SS8550"
-				(at 5.08 0 0)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8550.pdf"
-				(at 5.08 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "General Purpose PNP Transistor, 1.5A Ic, 25V Vce, SOT-23"
-				(at 34.036 -2.286 0)
+			(property "Footprint" ""
+				(at 63.5 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -733,7 +660,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SS8550 PNP Transistor"
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -742,7 +678,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "Sim.Device" "NPN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -751,13 +687,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "SS8550_0_1"
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -766,7 +729,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -790,7 +753,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -813,7 +776,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -823,12 +786,54 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "SS8550_1_1"
+			(symbol "NPN_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -843,25 +848,7 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
+				(pin open_emitter line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -871,7 +858,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1109,16 +1096,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "czy buzzer jest dobrze podłączony"
-		(exclude_from_sim no)
-		(at 113.03 108.966 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06484446-c2e5-4448-8797-5a2c949155ba")
-	)
 	(text "zmienić symbol na zwykły\n"
 		(exclude_from_sim no)
 		(at 121.666 52.832 0)
@@ -1209,16 +1186,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 127) (xy 140.97 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30942d78-9166-4ab8-a1a1-9d5423a086f1")
-	)
-	(wire
-		(pts
 			(xy 113.03 87.63) (xy 113.03 93.98)
 		)
 		(stroke
@@ -1229,6 +1196,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 118.11) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1536b7-0b4a-4d7b-91ae-f933b933f758")
+	)
+	(wire
+		(pts
 			(xy 166.37 86.36) (xy 171.45 86.36)
 		)
 		(stroke
@@ -1236,6 +1213,16 @@
 			(type default)
 		)
 		(uuid "5250ff41-bd47-42de-93d1-65f9640eb309")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.84) (xy 82.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548b8e47-00a4-439b-ac27-139d7703258b")
 	)
 	(wire
 		(pts
@@ -1269,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 95.25) (xy 140.97 127)
+			(xy 139.7 95.25) (xy 139.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1359,6 +1346,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b7ad62-5fd5-496e-9287-a5bab97377f6")
+	)
+	(wire
+		(pts
 			(xy 172.72 88.9) (xy 166.37 88.9)
 		)
 		(stroke
@@ -1399,16 +1396,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 115.57) (xy 113.03 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3480eb8-199e-485c-ac1b-35713e727c82")
-	)
-	(wire
-		(pts
 			(xy 96.52 77.47) (xy 113.03 77.47)
 		)
 		(stroke
@@ -1419,13 +1406,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 118.11) (xy 113.03 127)
+			(xy 90.17 121.92) (xy 90.17 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b95fc59c-fb59-4df3-b27a-709a63e84a0b")
+		(uuid "b350e1cb-7836-49b1-a2be-f699fa095df0")
 	)
 	(wire
 		(pts
@@ -1469,6 +1456,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d168bdd0-d460-4b2d-abbb-773654d34a26")
+	)
+	(wire
+		(pts
 			(xy 166.37 88.9) (xy 166.37 87.63)
 		)
 		(stroke
@@ -1479,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 140.97 95.25)
+			(xy 172.72 95.25) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 110.49) (xy 81.28 120.65)
+			(xy 81.28 110.49) (xy 81.28 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1506,16 +1503,6 @@
 			(type default)
 		)
 		(uuid "daa6c27f-3d10-4aff-b62f-2c6f46da3c55")
-	)
-	(wire
-		(pts
-			(xy 88.9 125.73) (xy 88.9 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcda40a5-4a31-4a4d-b4a9-8177ca5e6073")
 	)
 	(wire
 		(pts
@@ -1537,9 +1524,19 @@
 		)
 		(uuid "fc874b29-9920-4a08-af54-a37d8eaff017")
 	)
+	(wire
+		(pts
+			(xy 106.68 114.3) (xy 106.68 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8eafa1-cb50-4ed4-af01-407020cd4de2")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 133.35 0)
+		(at 90.17 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1548,7 +1545,7 @@
 		(fields_autoplaced yes)
 		(uuid "21c2823c-f291-43b4-986d-65e39d85ed19")
 		(property "Reference" "#PWR068"
-			(at 88.9 139.7 0)
+			(at 90.17 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 138.43 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 133.35 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 133.35 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +1580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 133.35 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,8 +1999,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BMT0905XH05:BMT0905XH05")
-		(at 113.03 115.57 0)
+		(lib_id "Device:Buzzer")
+		(at 104.14 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2012,7 +2009,7 @@
 		(fields_autoplaced yes)
 		(uuid "84f5274c-e79a-4717-9b0b-595fa530b22a")
 		(property "Reference" "LS1"
-			(at 124.46 115.5699 0)
+			(at 107.95 120.135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2018,7 @@
 			)
 		)
 		(property "Value" "BMT0905XH05"
-			(at 124.46 118.1099 0)
+			(at 107.95 122.675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2027,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BMT0905XH05"
-			(at 124.46 218.11 0)
+			(at 1.6 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2037,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/7f0b1b0d974635411dcfb4c191f1c3ad/BMT-0905XH05.pdf"
-			(at 124.46 318.11 0)
+			(at -98.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2047,7 @@
 			)
 		)
 		(property "Description" "Electro-magnetic Transducer"
-			(at 113.03 115.57 0)
+			(at 104.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2056,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 124.46 518.11 0)
+			(at -298.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2066,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 124.46 618.11 0)
+			(at -398.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2076,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 124.46 718.11 0)
+			(at -498.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2086,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BeStar Electronics"
-			(at 124.46 818.11 0)
+			(at -598.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2096,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BMT0905XH05"
-			(at 124.46 918.11 0)
+			(at -698.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,8 +2187,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:SS8550")
-		(at 86.36 120.65 0)
+		(lib_id "Simulation_SPICE:NPN")
+		(at 87.63 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2200,7 +2197,7 @@
 		(fields_autoplaced yes)
 		(uuid "97fe96f6-389d-4b5c-8e3d-9169c2b177d3")
 		(property "Reference" "Q1"
-			(at 91.44 119.3799 0)
+			(at 92.71 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2206,7 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 91.44 121.9199 0)
+			(at 92.71 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,28 +2216,25 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 91.44 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8550.pdf"
-			(at 91.44 125.476 0)
+			(at 151.13 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "General Purpose PNP Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 120.396 122.936 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 151.13 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 87.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2243,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 86.36 120.65 0)
+			(at 87.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2252,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 86.36 120.65 0)
+			(at 87.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2261,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 86.36 120.65 0)
+			(at 87.63 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

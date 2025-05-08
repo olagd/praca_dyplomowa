@@ -321,7 +321,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5E"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -330,7 +333,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0.635 5.715 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -338,8 +341,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -347,7 +350,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -355,8 +358,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -364,7 +367,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -382,42 +385,9 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.778 2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -429,7 +399,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -440,7 +410,7 @@
 					)
 				)
 				(circle
-					(center 1.778 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -452,7 +422,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -463,7 +433,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -481,7 +451,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -491,42 +461,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -680,70 +614,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e370f9b9-dbdb-474e-9b9f-308b4b9da24f")
-	)
-	(no_connect
-		(at 156.21 91.44)
-		(uuid "0413d0c3-33d5-4028-837d-7b4e80aade35")
-	)
-	(no_connect
-		(at 140.97 91.44)
-		(uuid "0a2ba825-4115-4387-815a-df97b448f323")
-	)
-	(no_connect
-		(at 170.18 91.44)
-		(uuid "1fcc219e-cdbc-42fd-a835-257e0aa98cde")
-	)
-	(no_connect
-		(at 198.12 91.44)
-		(uuid "2213e76b-77d1-4ccd-bbbe-67a7a3da5881")
-	)
-	(no_connect
-		(at 203.2 91.44)
-		(uuid "2b7a6285-a7c7-424c-a405-dcd217106777")
-	)
-	(no_connect
-		(at 160.02 91.44)
-		(uuid "5e1f8f3a-e359-443f-b96d-c775637e4dbf")
-	)
-	(no_connect
-		(at 173.99 91.44)
-		(uuid "66145062-0d0d-4604-aaba-ce39981fdaac")
-	)
-	(no_connect
-		(at 146.05 91.44)
-		(uuid "68f99d7f-c433-409f-9c4b-9ecc81b7e620")
-	)
-	(no_connect
-		(at 187.96 91.44)
-		(uuid "6c6afab5-bca7-4918-95fc-962f99f0694f")
-	)
-	(no_connect
-		(at 125.73 91.44)
-		(uuid "6cd2d793-d0f7-4857-9e44-5a1f9d60bbc5")
-	)
-	(no_connect
-		(at 115.57 91.44)
-		(uuid "7641e45c-0442-4f56-b9b0-1b44466246d8")
-	)
-	(no_connect
-		(at 213.36 91.44)
-		(uuid "9343af15-86a9-4b7e-851b-550875a56410")
-	)
-	(no_connect
-		(at 184.15 91.44)
-		(uuid "a90a15c3-258d-4696-9087-e9d36e1b753a")
-	)
-	(no_connect
-		(at 109.22 91.44)
-		(uuid "b6120076-4993-4cb2-9ef6-1909983b8462")
-	)
-	(no_connect
-		(at 130.81 91.44)
-		(uuid "e76ada3c-1354-4b4b-b54b-b68712aa04ba")
-	)
-	(no_connect
-		(at 99.06 91.44)
-		(uuid "eeb1ae7e-f106-4527-845f-55291f9d6eef")
 	)
 	(wire
 		(pts
@@ -1332,8 +1202,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 179.07 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 179.07 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1341,7 +1211,7 @@
 		(dnp no)
 		(uuid "336fe204-f7d5-4496-95e0-372e9c9b49f5")
 		(property "Reference" "S8"
-			(at 179.324 82.296 0)
+			(at 179.324 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1219,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 179.324 84.836 0)
+			(at 179.324 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1227,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 179.07 83.82 0)
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1236,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 179.07 83.82 0)
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,7 +1245,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 179.07 91.44 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1254,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 205.74 486.36 0)
+			(at 205.74 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1264,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 205.74 586.36 0)
+			(at 205.74 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1274,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 205.74 686.36 0)
+			(at 205.74 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1284,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 205.74 786.36 0)
+			(at 205.74 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1294,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 205.74 886.36 0)
+			(at 205.74 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,14 +1306,8 @@
 		(pin "2"
 			(uuid "42adf501-7e58-4d94-be0c-61c3696405a1")
 		)
-		(pin "4"
-			(uuid "1e88b5a6-8ad3-4b77-9573-631d3e6c8459")
-		)
 		(pin "1"
 			(uuid "17939f95-1c86-47a3-992a-9fa5ee5ba73b")
-		)
-		(pin "3"
-			(uuid "fc99a044-77f8-4dfb-8c25-57d04e7d9ae1")
 		)
 		(instances
 			(project "board"
@@ -1455,8 +1319,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 165.1 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 165.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1464,7 +1328,7 @@
 		(dnp no)
 		(uuid "34809d33-7c86-4db1-a812-b7b52515434f")
 		(property "Reference" "S7"
-			(at 165.354 81.534 0)
+			(at 165.354 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1336,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 165.354 84.074 0)
+			(at 165.354 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1344,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 165.1 83.82 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1353,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 165.1 83.82 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1362,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 165.1 91.44 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1371,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 191.77 486.36 0)
+			(at 191.77 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1381,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 191.77 586.36 0)
+			(at 191.77 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1391,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 191.77 686.36 0)
+			(at 191.77 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1401,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 191.77 786.36 0)
+			(at 191.77 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1411,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 191.77 886.36 0)
+			(at 191.77 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,14 +1423,8 @@
 		(pin "2"
 			(uuid "f760886c-70b6-4f5b-b1d8-4ea0f529dac5")
 		)
-		(pin "4"
-			(uuid "a4146411-a723-44a1-b72c-0fd4bcdd0f87")
-		)
 		(pin "1"
 			(uuid "272d1c7b-a0af-4f85-af27-61d2d9e3499a")
-		)
-		(pin "3"
-			(uuid "78873218-c235-46c7-8bcf-97375808b3dd")
 		)
 		(instances
 			(project "board"
@@ -1578,8 +1436,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 208.28 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 208.28 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1587,7 +1445,7 @@
 		(dnp no)
 		(uuid "9cef8f40-69f8-461a-bcdf-0443aaa95214")
 		(property "Reference" "S10"
-			(at 208.534 81.788 0)
+			(at 208.534 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1453,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 208.534 84.328 0)
+			(at 208.534 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1461,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 208.28 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1470,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 208.28 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1479,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 208.28 91.44 0)
+			(at 208.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1488,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 234.95 486.36 0)
+			(at 234.95 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1498,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 234.95 586.36 0)
+			(at 234.95 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1508,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 234.95 686.36 0)
+			(at 234.95 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1518,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 234.95 786.36 0)
+			(at 234.95 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1528,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 234.95 886.36 0)
+			(at 234.95 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,14 +1540,8 @@
 		(pin "2"
 			(uuid "ee461ef5-8299-43b8-b5b5-d7cf00f32d77")
 		)
-		(pin "4"
-			(uuid "b685d45f-e1b4-47c4-9a70-a0efae1e1c5c")
-		)
 		(pin "1"
 			(uuid "500d9711-e437-4844-b73a-d1155c83b4df")
-		)
-		(pin "3"
-			(uuid "0ba353fa-17aa-4503-8c98-1499be2ab199")
 		)
 		(instances
 			(project "board"
@@ -1701,8 +1553,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 135.89 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 135.89 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1710,7 +1562,7 @@
 		(dnp no)
 		(uuid "ac018f9b-329f-42c0-be6e-e7f0da5f9fce")
 		(property "Reference" "S5"
-			(at 136.398 82.042 0)
+			(at 136.398 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1570,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 136.398 84.582 0)
+			(at 136.398 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1578,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 135.89 83.82 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 135.89 83.82 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1596,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 135.89 91.44 0)
+			(at 135.89 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1605,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 162.56 486.36 0)
+			(at 162.56 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +1615,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 162.56 586.36 0)
+			(at 162.56 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1625,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 162.56 686.36 0)
+			(at 162.56 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1635,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 162.56 786.36 0)
+			(at 162.56 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1645,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 162.56 886.36 0)
+			(at 162.56 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,14 +1657,8 @@
 		(pin "2"
 			(uuid "ebc0a5d8-e6e9-4719-8154-9dfa2f037877")
 		)
-		(pin "4"
-			(uuid "fe3baf84-ffe3-4d76-af94-b783182a0538")
-		)
 		(pin "1"
 			(uuid "c9667c28-da2c-47b9-9691-9dada139daa4")
-		)
-		(pin "3"
-			(uuid "f1aa7bc2-527c-4ee6-af40-72b3b0ed83fb")
 		)
 		(instances
 			(project "board"
@@ -1824,8 +1670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 104.14 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 104.14 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1833,7 +1679,7 @@
 		(dnp no)
 		(uuid "b29715f4-a608-450f-90ac-c541ad70025a")
 		(property "Reference" "S3"
-			(at 104.14 81.788 0)
+			(at 104.14 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1687,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 104.14 84.328 0)
+			(at 104.14 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1695,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 104.14 83.82 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1704,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 104.14 83.82 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1713,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 104.14 91.44 0)
+			(at 104.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1722,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 130.81 486.36 0)
+			(at 130.81 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +1732,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 130.81 586.36 0)
+			(at 130.81 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1742,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 130.81 686.36 0)
+			(at 130.81 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1752,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 130.81 786.36 0)
+			(at 130.81 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1762,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 130.81 886.36 0)
+			(at 130.81 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,14 +1774,8 @@
 		(pin "2"
 			(uuid "fc3ff73c-955d-48dd-a3df-0246cdc735b9")
 		)
-		(pin "4"
-			(uuid "4ba7d856-0add-43bc-bd91-80ae329a4028")
-		)
 		(pin "1"
 			(uuid "1e491d5a-f83b-4295-9691-fb23af9d6de1")
-		)
-		(pin "3"
-			(uuid "fdd68c72-0208-4ff5-ac54-59e9775e15eb")
 		)
 		(instances
 			(project "board"
@@ -1947,8 +1787,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 193.04 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 193.04 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1956,7 +1796,7 @@
 		(dnp no)
 		(uuid "d2ec7308-0acf-47a1-83a4-6d8599d213a7")
 		(property "Reference" "S9"
-			(at 193.04 81.788 0)
+			(at 193.04 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1804,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 193.04 84.328 0)
+			(at 193.04 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1812,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 193.04 83.82 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1821,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 193.04 83.82 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1830,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 193.04 91.44 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1839,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 219.71 486.36 0)
+			(at 219.71 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +1849,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 219.71 586.36 0)
+			(at 219.71 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +1859,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 219.71 686.36 0)
+			(at 219.71 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1869,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 219.71 786.36 0)
+			(at 219.71 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +1879,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 219.71 886.36 0)
+			(at 219.71 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,14 +1891,8 @@
 		(pin "2"
 			(uuid "9676b972-26c2-43fd-bc3e-7dfdbb12bd20")
 		)
-		(pin "4"
-			(uuid "d61841bc-5fa4-44f6-8410-773a671418e8")
-		)
 		(pin "1"
 			(uuid "fd5da97a-6721-4b41-ad32-f09009bc1eae")
-		)
-		(pin "3"
-			(uuid "89bc080e-d1e6-4ecf-9c2a-3499a0aae61b")
 		)
 		(instances
 			(project "board"
@@ -2070,8 +1904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 120.65 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 120.65 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2079,7 +1913,7 @@
 		(dnp no)
 		(uuid "d6e32a0e-ac80-433a-a9d9-73cf2f7d1b0a")
 		(property "Reference" "S4"
-			(at 120.396 82.042 0)
+			(at 120.396 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +1921,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 120.65 84.074 0)
+			(at 120.65 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +1929,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 120.65 83.82 0)
+			(at 120.65 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +1938,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 120.65 83.82 0)
+			(at 120.65 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +1947,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 120.65 91.44 0)
+			(at 120.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +1956,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 147.32 486.36 0)
+			(at 147.32 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +1966,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 147.32 586.36 0)
+			(at 147.32 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +1976,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 147.32 686.36 0)
+			(at 147.32 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +1986,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 147.32 786.36 0)
+			(at 147.32 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +1996,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 147.32 886.36 0)
+			(at 147.32 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,14 +2008,8 @@
 		(pin "2"
 			(uuid "a4b0bc8b-0c53-4f95-b76f-163d1a87db7a")
 		)
-		(pin "4"
-			(uuid "36cc4046-e469-4adc-a446-bc81ad11130e")
-		)
 		(pin "1"
 			(uuid "a797b3af-4bcb-4d5e-9d2a-f3941cdb095c")
-		)
-		(pin "3"
-			(uuid "2695ec6e-b058-48b6-8521-38b06194a02e")
 		)
 		(instances
 			(project "board"
@@ -2259,8 +2087,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 151.13 91.44 0)
+		(lib_id "Switch:SW_Push")
+		(at 151.13 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2268,7 +2096,7 @@
 		(dnp no)
 		(uuid "ee788da5-7bfd-4db2-b29d-bfbdbbd94da3")
 		(property "Reference" "S6"
-			(at 151.638 82.55 0)
+			(at 151.638 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2104,7 @@
 			)
 		)
 		(property "Value" "1301.9319"
-			(at 151.638 85.09 0)
+			(at 151.638 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2112,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
-			(at 151.13 83.82 0)
+			(at 151.13 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 151.13 83.82 0)
+			(at 151.13 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2130,7 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 151.13 91.44 0)
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2139,7 @@
 			)
 		)
 		(property "Height" "9"
-			(at 177.8 486.36 0)
+			(at 177.8 483.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2149,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 177.8 586.36 0)
+			(at 177.8 583.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2159,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 177.8 686.36 0)
+			(at 177.8 683.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2169,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SCHURTER"
-			(at 177.8 786.36 0)
+			(at 177.8 783.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2179,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1301.9319"
-			(at 177.8 886.36 0)
+			(at 177.8 883.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,14 +2191,8 @@
 		(pin "2"
 			(uuid "bdc859be-2dbc-4788-b40f-00480459007b")
 		)
-		(pin "4"
-			(uuid "add2d4b0-4f26-4c01-ab3a-ee4ffad08b66")
-		)
 		(pin "1"
 			(uuid "d727f25a-e5f6-434f-b02e-0b1aa0f949d8")
-		)
-		(pin "3"
-			(uuid "92fd4310-ff2f-4f93-8b5d-4e58f700fca1")
 		)
 		(instances
 			(project "board"

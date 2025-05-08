@@ -5469,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CLSB12C01"
+		(property "Footprint" "footprints:JS102011CQN"
 			(at 118.11 163.83 0)
 			(effects
 				(font
