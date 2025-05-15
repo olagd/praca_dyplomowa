@@ -800,10 +800,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "242cbea0-4cae-4a5f-8e86-2e6a00542959")
 		(property "Reference" "J4"
-			(at 137.16 83.8199 0)
+			(at 133.35 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,6 +817,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -1010,10 +1010,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd01e13c-a1de-4003-a748-46fc935827a4")
 		(property "Reference" "J23"
-			(at 72.39 74.93 0)
+			(at 72.136 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,6 +1025,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
@@ -1094,7 +1094,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP3202-CI_MS"
+		(property "Value" "MCP3202"
 			(at 96.52 76.2 0)
 			(effects
 				(font
@@ -1102,7 +1102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOP65P490X110-8N"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 111.76 176.2 0)
 			(effects
 				(font

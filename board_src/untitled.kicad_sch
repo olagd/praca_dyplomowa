@@ -1156,7 +1156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:DS18B20"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 139.7 19.38 0)
 			(effects
 				(font
