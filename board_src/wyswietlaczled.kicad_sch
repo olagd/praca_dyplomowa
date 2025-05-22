@@ -2176,7 +2176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 83.82 90)
 			(effects
 				(font
@@ -2393,7 +2393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 78.74 90)
 			(effects
 				(font
@@ -2811,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 81.28 90)
 			(effects
 				(font
@@ -3015,7 +3015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 86.36 90)
 			(effects
 				(font
@@ -3084,7 +3084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 76.2 90)
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 71.12 90)
 			(effects
 				(font
@@ -3222,7 +3222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 68.58 90)
 			(effects
 				(font
@@ -3357,13 +3357,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "221"
+		(property "Value" "220"
 			(at 141.224 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
