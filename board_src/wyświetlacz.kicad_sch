@@ -2166,15 +2166,15 @@
 	(symbol
 		(lib_id "Transistor_FET:BSS123")
 		(at 163.83 91.44 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c59e39b-2633-4a7f-8f7e-253f4b9a9b90")
 		(property "Reference" "Q6"
-			(at 170.18 90.1699 0)
+			(at 170.18 92.7101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,7 @@
 			)
 		)
 		(property "Value" "BSS123"
-			(at 170.18 92.7099 0)
+			(at 170.18 90.1701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2192,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 168.91 93.345 0)
+			(at 168.91 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-			(at 168.91 95.25 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7"
+		(property "Value" "4.7k"
 			(at 153.67 80.01 90)
 			(effects
 				(font
