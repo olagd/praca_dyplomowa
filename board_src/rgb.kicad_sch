@@ -237,25 +237,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J15"
-				(at -1.2701 5.08 90)
+			(property "Reference" "J"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x03"
-				(at 1.2699 5.08 90)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -355,7 +353,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -391,7 +389,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -793,7 +791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f0f0c88-8106-40ca-bf86-bc1ee3ad06b3")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 134.112 96.774 0)
 			(effects
 				(font
@@ -811,7 +809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 142.24 97.028 90)
 			(effects
 				(font
@@ -847,7 +845,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/2ad7fc0c-38f7-4b2f-bd87-4c3b79aeda46"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -863,7 +861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c6f160a-f605-47f9-8fc2-a490e9bba69b")
-		(property "Reference" "J15"
+		(property "Reference" "J31"
 			(at 198.1199 90.17 90)
 			(effects
 				(font
@@ -881,7 +879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 199.39 95.25 0)
 			(effects
 				(font
@@ -920,7 +918,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/2ad7fc0c-38f7-4b2f-bd87-4c3b79aeda46"
-					(reference "J15")
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -935,7 +933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6696dec9-a288-42b1-8298-048ffaad899e")
-		(property "Reference" "R21"
+		(property "Reference" "R25"
 			(at 139.7 102.616 0)
 			(effects
 				(font
@@ -953,7 +951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 142.24 99.568 90)
 			(effects
 				(font
@@ -989,7 +987,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/2ad7fc0c-38f7-4b2f-bd87-4c3b79aeda46"
-					(reference "R21")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1005,7 +1003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "713281cc-b01b-4f71-96aa-0bc5114f7208")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR058"
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -1055,7 +1053,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/2ad7fc0c-38f7-4b2f-bd87-4c3b79aeda46"
-					(reference "#PWR028")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1088,7 +1086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 142.24 94.488 90)
 			(effects
 				(font
@@ -1140,7 +1138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ecd8c9-04cd-4f54-b625-6d6de7b06897")
-		(property "Reference" "LED1"
+		(property "Reference" "LED5"
 			(at 171.45 85.09 0)
 			(effects
 				(font
@@ -1156,7 +1154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ASMT-YTC7-0AA02"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 185.42 187.63 0)
 			(effects
 				(font
@@ -1256,7 +1254,7 @@
 		(instances
 			(project ""
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/2ad7fc0c-38f7-4b2f-bd87-4c3b79aeda46"
-					(reference "LED1")
+					(reference "LED5")
 					(unit 1)
 				)
 			)

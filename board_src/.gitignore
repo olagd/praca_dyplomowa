@@ -1,0 +1,100 @@
+# KiCad project files to ignore
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.bak
+*.cache
+*.lck
+
+# KiCad backup files
+*-bak
+*-cache.lib
+*-cache.dcm
+*-rescue.lib
+*-rescue.dcm
+*-saved.pro
+*-saved.kicad_pro
+*-saved.kicad_sch
+*-saved.kicad_pcb
+board*.zip
+\#auto_saved_files\#
+
+# KiCad netlist files
+*.net
+
+# KiCad autorouter files
+*.dsn
+*.ses
+
+# KiCad Gerber export files
+*.gbr
+*.gko
+*.gm1
+*.gm2
+*.gm3
+*.gm4
+*.gm5
+*.gm6
+*.gm7
+*.gm8
+*.gm9
+*.gm10
+*.gm11
+*.gm12
+*.gm13
+*.gm14
+*.gm15
+*.gm16
+*.gts
+*.gbs
+*.gtp
+*.gbp
+*.gto
+*.gbo
+*.drl
+*.map
+*.rpt
+*.pos
+
+# Excellon drill files
+*.drl
+*.xln
+
+# Pick and place files
+*-top-pos.csv
+*-bottom-pos.csv
+*-all-pos.csv
+
+# Fabrication outputs
+/fab/
+/gerbers/
+/production/
+/manufacturing/
+
+# 3D models (if large/proprietary)
+# *.step
+# *.stp
+# *.wrl
+# *.3dshapes
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build directories
+/build/
+/output/
+
+# Log files
+*.log

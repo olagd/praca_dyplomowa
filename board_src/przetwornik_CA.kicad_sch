@@ -718,9 +718,15 @@
 		(color 0 0 0 0)
 		(uuid "8c0c7b60-a6a8-405d-9b37-33658bd6cc60")
 	)
+	(junction
+		(at 128.27 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baccf635-798b-4712-bd80-f6fbd117b9d0")
+	)
 	(wire
 		(pts
-			(xy 132.08 76.2) (xy 118.11 76.2)
+			(xy 132.08 76.2) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -830,6 +836,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fa0b14-ca6d-452e-a3aa-6021466f5f25")
+	)
+	(wire
+		(pts
 			(xy 118.11 95.25) (xy 118.11 81.28)
 		)
 		(stroke
@@ -880,6 +896,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87792a0-889e-482b-9ac5-0062cc3dbc30")
+	)
+	(wire
+		(pts
 			(xy 132.08 78.74) (xy 119.38 78.74)
 		)
 		(stroke
@@ -887,6 +913,72 @@
 			(type default)
 		)
 		(uuid "fb05c32c-6a07-4042-b1ab-f5ccc8137917")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "031b5df8-18ce-4da5-ad74-ef14e52507aa")
+		(property "Reference" "#PWR086"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a09448df-68f8-4e07-821c-e77e7e37e675")
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -898,7 +990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4845786d-7878-4d8d-a73c-23700879b9ad")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 83.82 64.77 90)
 			(effects
 				(font
@@ -914,7 +1006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 58.1152 0)
 			(effects
 				(font
@@ -950,7 +1042,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -966,7 +1058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae42412-09da-4994-9d67-c00b92c5b2ad")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR084"
 			(at 77.47 63.5 0)
 			(effects
 				(font
@@ -1016,7 +1108,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "#PWR044")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -1032,7 +1124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b647b7d-37fc-4fc0-8557-5e28ad602313")
-		(property "Reference" "J28"
+		(property "Reference" "J42"
 			(at 76.2 67.31 0)
 			(effects
 				(font
@@ -1048,7 +1140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 76.2 78.74 0)
 			(effects
 				(font
@@ -1090,7 +1182,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "J28")
+					(reference "J42")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68d73546-72f8-464e-92bb-6a645dd3a12e")
-		(property "Reference" "J8"
+		(property "Reference" "J43"
 			(at 139.7 76.1999 0)
 			(effects
 				(font
@@ -1124,7 +1216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 137.16 76.2 0)
 			(effects
 				(font
@@ -1166,7 +1258,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "J8")
+					(reference "J43")
 					(unit 1)
 				)
 			)
@@ -1182,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71506575-6b7d-4730-ba2e-afe21e6b2286")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR087"
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -1232,7 +1324,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "#PWR071")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1248,7 +1340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92d6f6ff-1c06-4775-bede-3f273c809ddf")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 123.19 80.01 90)
 			(effects
 				(font
@@ -1264,7 +1356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 127 86.6648 0)
 			(effects
 				(font
@@ -1300,7 +1392,7 @@
 		(instances
 			(project "board"
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1316,7 +1408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf8f75d5-e399-4b76-8a48-07af11dcdf4e")
-		(property "Reference" "IC6"
+		(property "Reference" "IC5"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -1332,7 +1424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DIP781W56P254L950H533Q8N"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 114.3 168.58 0)
 			(effects
 				(font
@@ -1438,7 +1530,7 @@
 		(instances
 			(project ""
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc"
-					(reference "IC6")
+					(reference "IC5")
 					(unit 1)
 				)
 			)

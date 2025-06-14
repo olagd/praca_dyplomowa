@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 1.4,
-          "width": 1.4
+          "drill": 3.2,
+          "height": 3.6,
+          "width": 3.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -248,7 +249,36 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1168400|660400|b71b22b3-71aa-4209-85bb-4adf3cbdd120|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1168400|927100|2817c018-ea4e-4f91-b6f2-27b0302d5a80|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1955800|736600|d3cbe822-3260-48bd-bc0e-e9f0c6c4df1f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|584200|609600|bf664d63-4cce-4fde-9316-682fb84615b3|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|927100|1155700|84f5274c-e79a-4717-9b0b-595fa530b22a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|711200|622300|de2b9a09-61e1-4883-b95d-d8d1b453d370|ee246d50-030d-4628-95ba-af0343822d6a|/772e9f49-cfcf-4cf6-843d-0684684f2d4b/99f2b7c2-bf4b-48af-983c-5ee0acdebe2a|/772e9f49-cfcf-4cf6-843d-0684684f2d4b/99f2b7c2-bf4b-48af-983c-5ee0acdebe2a|/772e9f49-cfcf-4cf6-843d-0684684f2d4b/99f2b7c2-bf4b-48af-983c-5ee0acdebe2a",
+        ""
+      ],
+      [
+        "power_pin_not_driven|901700|736600|e7cb7fc4-a8cc-45d8-9420-9e0129397f74|00000000-0000-0000-0000-000000000000|/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc|/772e9f49-cfcf-4cf6-843d-0684684f2d4b/a9412e5b-03b5-4d96-9e57-eaee9dc3e6dc|",
+        "Zasilanie podłączane przez piny w trakcie konfiguracji przez studentów."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -434,7 +464,7 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "error",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
@@ -457,10 +487,10 @@
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
-      "similar_labels": "warning",
+      "similar_labels": "ignore",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
