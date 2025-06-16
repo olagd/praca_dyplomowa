@@ -3672,6 +3672,16 @@
 		)
 		(uuid "4298e075-ebc6-47a1-8255-eac54d6a3483")
 	)
+	(label "USBD-"
+		(at 147.32 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c731a75-9c0e-4c7a-bfd4-ca69fc23312d")
+	)
 	(label "3V3OUT"
 		(at 156.21 73.66 0)
 		(effects
@@ -3821,6 +3831,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8f53e2a-4430-4a69-8141-887c6c96e72c")
+	)
+	(label "USBD+"
+		(at 147.32 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eef017f0-4783-4005-ad37-0700c03bfac5")
 	)
 	(label "TXD"
 		(at 76.2 124.46 0)

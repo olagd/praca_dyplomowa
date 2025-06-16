@@ -1,4 +1,4 @@
-25661245318884250
+25668244909354334
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102717,6 +102717,34 @@ LED
 0
 2
 2
+footprints
+LCD-1602A
+
+
+0
+16
+16
+footprints
+LCD-1602A-CUSTOM-CENTERED
+
+
+0
+16
+16
+footprints
+LCD-1602A-CUSTOM-RW
+
+
+0
+16
+16
+footprints
+LCD-1602A-NOHOLES
+
+
+0
+16
+16
 footprints
 LEDC1608X80N
 LS Q976-NR-1_2023

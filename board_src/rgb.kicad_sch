@@ -854,29 +854,27 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 199.39 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c6f160a-f605-47f9-8fc2-a490e9bba69b")
 		(property "Reference" "J31"
-			(at 198.1199 90.17 90)
+			(at 199.39 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 200.6599 90.17 90)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"

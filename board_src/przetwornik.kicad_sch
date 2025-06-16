@@ -1070,7 +1070,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 69.85 86.36 180)
+		(at 69.85 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1078,7 +1079,7 @@
 		(dnp no)
 		(uuid "dd01e13c-a1de-4003-a748-46fc935827a4")
 		(property "Reference" "J35"
-			(at 69.596 77.724 0)
+			(at 69.596 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1087,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 69.85 77.47 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1096,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 69.85 86.36 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 86.36 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1114,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 86.36 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
