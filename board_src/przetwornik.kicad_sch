@@ -886,7 +886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -1095,7 +1095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 69.85 83.82 0)
 			(effects
 				(font
@@ -1169,7 +1169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOP65P780X200-28N"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 111.76 176.2 0)
 			(effects
 				(font

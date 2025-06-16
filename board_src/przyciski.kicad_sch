@@ -1141,7 +1141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 148.59 67.31 0)
 			(effects
 				(font
@@ -1226,7 +1226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:JS102011CQN"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -1460,7 +1460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:JS102011CQN"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
 			(at 208.28 81.28 0)
 			(effects
 				(font

@@ -877,7 +877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 199.39 95.25 0)
 			(effects
 				(font
@@ -1152,7 +1152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "footprints:ASMT-YTC7-0AA02"
 			(at 185.42 187.63 0)
 			(effects
 				(font

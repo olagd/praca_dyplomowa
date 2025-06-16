@@ -2866,6 +2866,12 @@
 		(color 0 0 0 0)
 		(uuid "8ee7237b-63f2-4037-b43d-9e09822a8f72")
 	)
+	(junction
+		(at 88.9 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f546257c-222a-45ee-bef9-fb34c679f2a3")
+	)
 	(no_connect
 		(at 130.81 110.49)
 		(uuid "2e61f348-9bb4-43d2-9c11-20d3ef0dcdc4")
@@ -2934,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 167.64) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbf120c-6531-46c1-94e6-534f0c191c22")
+	)
+	(wire
+		(pts
 			(xy 134.62 120.65) (xy 130.81 120.65)
 		)
 		(stroke
@@ -2984,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 161.29) (xy 97.79 161.29)
+			(xy 82.55 161.29) (xy 88.9 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3284,6 +3300,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 161.29) (xy 97.79 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e847716-fe4e-471c-b895-336b8a32ecbd")
+	)
+	(wire
+		(pts
 			(xy 93.98 100.33) (xy 97.79 100.33)
 		)
 		(stroke
@@ -3441,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "d40e1ce5-3ec5-4f88-a159-e894abe67947")
+	)
+	(wire
+		(pts
+			(xy 88.9 161.29) (xy 88.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d707562d-60f8-4e55-b47f-e0096b4cdc80")
 	)
 	(wire
 		(pts
@@ -4365,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 101.6 161.29 0)
 			(effects
 				(font
@@ -5023,7 +5059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+		(property "Footprint" "footprints:SOP65P780X200-28N"
 			(at 127 195.25 0)
 			(effects
 				(font
@@ -5190,6 +5226,76 @@
 			(project ""
 				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/b05c8f1b-3a6f-4219-9b92-1975eaafd5f3"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bebfa1da-71bf-4c56-9d52-084cc9300b02")
+		(property "Reference" "C12"
+			(at 91.44 163.8235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 91.44 166.3635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "623a5dd2-a4df-4064-88ee-a9e953399e72")
+		)
+		(pin "2"
+			(uuid "9fc0f500-ec28-4f82-a08b-a6647930b00f")
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/b05c8f1b-3a6f-4219-9b92-1975eaafd5f3"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5485,7 +5591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H9.5mm"
+		(property "Footprint" "footprints:JS102011CQN"
 			(at 118.11 163.83 0)
 			(effects
 				(font
@@ -5647,6 +5753,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e67cd2a3-6274-4ed3-9692-ad8fc47feaf5")
+		(property "Reference" "#PWR0119"
+			(at 88.9 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.154 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585f7e17-5772-4284-a851-0a3c9ea7ffc9")
+		)
+		(instances
+			(project "board"
+				(path "/772e9f49-cfcf-4cf6-843d-0684684f2d4b/b05c8f1b-3a6f-4219-9b92-1975eaafd5f3"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 156.21 86.36 0)
 		(unit 1)
@@ -5744,7 +5915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 170.18 143.51 0)
 			(effects
 				(font
